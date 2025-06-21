@@ -629,7 +629,7 @@
 
         /* Mobile table toggle button */
         .mobile-view-toggle {
-            display: none;
+            display: block; /* Always show for testing */
             background: var(--primary-color);
             color: white;
             border: none;
@@ -645,10 +645,60 @@
             background: var(--primary-dark);
         }
 
+        /* Card-style layout for mobile-friendly view */
+        .mobile-card-view .services-table,
+        .mobile-card-view .services-table thead,
+        .mobile-card-view .services-table tbody,
+        .mobile-card-view .services-table th,
+        .mobile-card-view .services-table td,
+        .mobile-card-view .services-table tr {
+            display: block;
+        }
+
+        .mobile-card-view .services-table thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        .mobile-card-view .services-table tr {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .mobile-card-view .services-table td {
+            border: none;
+            padding: 8px 0;
+            position: relative;
+            padding-left: 35%;
+            text-align: left;
+        }
+
+        .mobile-card-view .services-table td:before {
+            content: attr(data-label);
+            position: absolute;
+            left: 0;
+            width: 30%;
+            padding-right: 10px;
+            white-space: nowrap;
+            font-weight: 600;
+            color: #666;
+            font-size: 12px;
+        }
+
+        .mobile-card-view .action-buttons {
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
         @media (max-width: 480px) {
-            .mobile-view-toggle {
-                display: block;
-            }
+            /* Mobile view toggle is always visible now */
             
             /* Further optimize for very small screens */
             .services-table {

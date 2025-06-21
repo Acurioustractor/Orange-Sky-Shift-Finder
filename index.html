@@ -410,20 +410,119 @@
             .table-container {
                 margin: 15px;
                 border-radius: var(--border-radius);
+                /* Enable horizontal scrolling */
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                /* Add scroll indicators */
+                background: linear-gradient(90deg, white 30%, transparent),
+                           linear-gradient(90deg, transparent, white 70%) 100% 0,
+                           linear-gradient(90deg, rgba(0,0,0,0.2), transparent 30%),
+                           linear-gradient(270deg, rgba(0,0,0,0.2), transparent 30%) 100% 0;
+                background-repeat: no-repeat;
+                background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+                background-attachment: local, local, scroll, scroll;
             }
 
             .services-table {
-                font-size: 14px;
+                font-size: 13px;
+                min-width: 600px; /* Ensure table doesn't get too cramped */
             }
 
             .services-table th,
             .services-table td {
-                padding: 12px 8px;
+                padding: 10px 6px;
+                white-space: nowrap;
+            }
+
+            /* Make location column sticky on mobile for better UX */
+            .services-table th:first-child,
+            .services-table td:first-child {
+                position: sticky;
+                left: 0;
+                background: white;
+                z-index: 5;
+                box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+                min-width: 140px;
+            }
+
+            .services-table th:first-child {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                z-index: 15;
             }
 
             /* Hide less important columns on mobile */
             .hide-mobile {
                 display: none;
+            }
+
+            /* Improve action buttons for mobile */
+            .action-buttons {
+                flex-direction: column;
+                gap: 4px;
+                min-width: 80px;
+            }
+
+            .btn-maps {
+                padding: 8px 12px;
+                font-size: 12px;
+                min-height: 36px;
+                border-radius: 6px;
+            }
+
+            .btn-maps .btn-text {
+                display: none; /* Hide text on very small screens */
+            }
+
+            /* Card-style layout alternative for very small screens */
+            .mobile-card-view .services-table,
+            .mobile-card-view .services-table thead,
+            .mobile-card-view .services-table tbody,
+            .mobile-card-view .services-table th,
+            .mobile-card-view .services-table td,
+            .mobile-card-view .services-table tr {
+                display: block;
+            }
+
+            .mobile-card-view .services-table thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            .mobile-card-view .services-table tr {
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                margin-bottom: 12px;
+                padding: 15px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+            .mobile-card-view .services-table td {
+                border: none;
+                padding: 8px 0;
+                position: relative;
+                padding-left: 35%;
+                text-align: left;
+            }
+
+            .mobile-card-view .services-table td:before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 30%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: 600;
+                color: #666;
+                font-size: 12px;
+            }
+
+            .mobile-card-view .action-buttons {
+                flex-direction: row;
+                justify-content: flex-end;
+                gap: 8px;
+                margin-top: 8px;
             }
 
             #mapView {
@@ -524,6 +623,58 @@
             display: flex;
             flex-wrap: wrap;
             gap: 0.2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Mobile table toggle button */
+        .mobile-view-toggle {
+            display: none;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .mobile-view-toggle:hover {
+            background: var(--primary-dark);
+        }
+
+        @media (max-width: 480px) {
+            .mobile-view-toggle {
+                display: block;
+            }
+            
+            /* Further optimize for very small screens */
+            .services-table {
+                font-size: 12px;
+            }
+            
+            .btn-maps {
+                padding: 6px 8px;
+                font-size: 11px;
+                min-height: 32px;
+            }
+            
+            .day-badge, .time-badge {
+                font-size: 11px;
+                padding: 2px 6px;
+            }
+            
+            /* Improve touch targets */
+            .services-table th {
+                padding: 8px 4px;
+                font-size: 12px;
+            }
+            
+            .services-table td {
+                padding: 8px 4px;
+            }
         }
         
         .no-results-cell {
@@ -748,6 +899,9 @@
 
             <div id="table-view" role="tabpanel" aria-labelledby="tableBtn">
                 <div class="table-container">
+                    <button class="mobile-view-toggle" onclick="toggleMobileView()" aria-label="Toggle between table and card view">
+                        <i class="fas fa-th-list" aria-hidden="true"></i> Switch to Card View
+                    </button>
                     <table id="shiftsTable" role="table" aria-label="Orange Sky service shifts">
                         <thead>
                             <tr role="row">
@@ -871,6 +1025,16 @@
         // Load data when page loads
         document.addEventListener('DOMContentLoaded', function() {
             loadShiftData();
+            // Check if mobile view suggestion should be shown
+            setTimeout(checkMobileViewSuggestion, 1000);
+        });
+        
+        // Handle window resize for responsive behavior
+        window.addEventListener('resize', function() {
+            // Auto-suggest card view on very small screens
+            if (window.innerWidth <= 480 && !isMobileCardView && !localStorage.getItem('mobile-view-dismissed')) {
+                setTimeout(checkMobileViewSuggestion, 500);
+            }
         });
 
         async function loadShiftData() {
@@ -1048,24 +1212,24 @@
                 
                 return `
                     <tr role="row" tabindex="0" aria-rowindex="${index + 2}">
-                        <td role="gridcell">
+                        <td role="gridcell" data-label="Location">
                             <strong>${shift.service_name || shift.location || 'N/A'}</strong>
                             ${distanceInfo ? `<br><small class="distance-info">${distanceInfo}</small>` : ''}
                         </td>
-                        <td role="gridcell">
+                        <td role="gridcell" data-label="Day">
                             <span class="day-badge">${shift.day || 'N/A'}</span>
                         </td>
-                        <td role="gridcell">
+                        <td role="gridcell" data-label="Start">
                             <span class="time-badge">${shift.start_time || 'N/A'}</span>
                         </td>
-                        <td role="gridcell">
+                        <td role="gridcell" data-label="End">
                             <span class="time-badge">${shift.end_time || 'N/A'}</span>
                         </td>
-                        <td role="gridcell">${shift.state || 'N/A'}</td>
-                        <td role="gridcell" class="mobile-hide">
+                        <td role="gridcell" data-label="State">${shift.state || 'N/A'}</td>
+                        <td role="gridcell" class="mobile-hide" data-label="Address">
                             ${shift.address ? `${shift.address}, ${shift.suburb}` : 'N/A'}
                         </td>
-                        <td role="gridcell">
+                        <td role="gridcell" data-label="Actions">
                             <div class="action-buttons">
                                 <button class="btn-maps" 
                                         onclick="openGoogleMaps('${googleMapsUrl}')"
@@ -1273,6 +1437,49 @@
          function openAppleMaps(url) {
              window.open(url, '_blank', 'noopener,noreferrer');
              announceToScreenReader('Opening Apple Maps in new tab');
+         }
+
+         // Mobile view toggle functionality
+         let isMobileCardView = false;
+         
+         function toggleMobileView() {
+             const tableContainer = document.querySelector('.table-container');
+             const toggleButton = document.querySelector('.mobile-view-toggle');
+             
+             isMobileCardView = !isMobileCardView;
+             
+             if (isMobileCardView) {
+                 tableContainer.classList.add('mobile-card-view');
+                 toggleButton.innerHTML = '<i class="fas fa-table" aria-hidden="true"></i> Switch to Table View';
+                 announceToScreenReader('Switched to card view for better mobile experience');
+             } else {
+                 tableContainer.classList.remove('mobile-card-view');
+                 toggleButton.innerHTML = '<i class="fas fa-th-list" aria-hidden="true"></i> Switch to Card View';
+                 announceToScreenReader('Switched to table view');
+             }
+         }
+         
+         // Auto-detect very small screens and suggest card view
+         function checkMobileViewSuggestion() {
+             if (window.innerWidth <= 480 && !localStorage.getItem('mobile-view-dismissed')) {
+                 const suggestion = document.createElement('div');
+                 suggestion.className = 'mobile-suggestion';
+                 suggestion.innerHTML = `
+                     <div style="background: #e3f2fd; border: 1px solid #2196f3; border-radius: 6px; padding: 12px; margin: 10px 15px; font-size: 14px;">
+                         <i class="fas fa-mobile-alt" style="color: #2196f3; margin-right: 8px;"></i>
+                         <strong>Tip:</strong> Try the card view for a better mobile experience!
+                         <button onclick="toggleMobileView(); this.parentElement.parentElement.remove(); localStorage.setItem('mobile-view-dismissed', 'true');" 
+                                 style="background: #2196f3; color: white; border: none; padding: 4px 8px; border-radius: 4px; margin-left: 8px; font-size: 12px;">Try it</button>
+                         <button onclick="this.parentElement.parentElement.remove(); localStorage.setItem('mobile-view-dismissed', 'true');" 
+                                 style="background: transparent; color: #666; border: none; padding: 4px 8px; font-size: 12px;">Dismiss</button>
+                     </div>
+                 `;
+                 const tableContainer = document.querySelector('.table-container');
+                 const toggleButton = document.querySelector('.mobile-view-toggle');
+                 if (tableContainer && toggleButton) {
+                     tableContainer.insertBefore(suggestion, toggleButton);
+                 }
+             }
          }
          
          // Distance calculation using Haversine formula

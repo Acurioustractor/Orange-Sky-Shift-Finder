@@ -1512,20 +1512,29 @@
          let isMobileCardView = false;
          
          function toggleMobileView() {
+             console.log('toggleMobileView called');
              const tableContainer = document.querySelector('.table-container');
              const toggleButton = document.querySelector('.mobile-view-toggle');
              
+             console.log('tableContainer:', tableContainer);
+             console.log('toggleButton:', toggleButton);
+             
              isMobileCardView = !isMobileCardView;
+             console.log('isMobileCardView:', isMobileCardView);
              
              if (isMobileCardView) {
                  tableContainer.classList.add('mobile-card-view');
                  toggleButton.innerHTML = '<i class="fas fa-table" aria-hidden="true"></i> Switch to Table View';
+                 console.log('Added mobile-card-view class');
                  announceToScreenReader('Switched to card view for better mobile experience');
              } else {
                  tableContainer.classList.remove('mobile-card-view');
                  toggleButton.innerHTML = '<i class="fas fa-th-list" aria-hidden="true"></i> Switch to Card View';
+                 console.log('Removed mobile-card-view class');
                  announceToScreenReader('Switched to table view');
              }
+             
+             console.log('Current classes:', tableContainer.className);
          }
          
          // Auto-detect very small screens and suggest card view

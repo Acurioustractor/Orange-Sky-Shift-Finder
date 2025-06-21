@@ -298,6 +298,135 @@
             color: white;
             border: none;
             padding: 8px 12px;
+        }
+
+        /* Find Near Me Button Styling */
+        .find-near-me {
+            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+            color: white;
+            border: none;
+            padding: 20px 30px;
+            border-radius: var(--border-radius);
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+        }
+
+        .find-near-me:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+        }
+
+        .find-near-me:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .find-near-me i {
+            font-size: 20px;
+        }
+
+        /* Nearby shifts table styling */
+        .nearby-shifts {
+            margin-top: 20px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 20px;
+        }
+
+        .nearby-shifts h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .closest-shift {
+            background: linear-gradient(135deg, #e8f5e8 0%, #f0f9f0 100%);
+            border: 2px solid #27ae60;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .closest-shift h4 {
+            color: #27ae60;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .distance-info {
+            background: #27ae60;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .shift-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 10px 0;
+        }
+
+        .shift-detail {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid #27ae60;
+        }
+
+        .shift-detail strong {
+            color: #2c3e50;
+        }
+
+        /* Closest marker pulsing animation */
+        .closest-marker {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Responsive design for nearby shifts */
+        @media (max-width: 768px) {
+            .find-near-me {
+                padding: 15px 20px;
+                font-size: 16px;
+            }
+            
+            .shift-details {
+                grid-template-columns: 1fr;
+            }
+            
+            .nearby-shifts {
+                padding: 15px;
+            }
+        }
             border-radius: var(--border-radius);
             font-size: 14px;
             cursor: pointer;
@@ -858,6 +987,16 @@
 
         <main id="main-content" role="main">
             <section class="controls" aria-label="Search and filter options">
+                <!-- Find Near Me Button -->
+                <button class="find-near-me" 
+                        onclick="findNearestShift()" 
+                        id="findNearMeBtn"
+                        aria-describedby="find-near-help">
+                    <i class="fas fa-location-arrow" aria-hidden="true"></i>
+                    Find a Shift near me
+                </button>
+                <div id="find-near-help" class="sr-only">Use your location to find the closest Orange Sky service</div>
+                
                 <div class="search-grid">
                     <div class="form-group">
                         <label for="locationSearch">Search Location</label>
@@ -1030,6 +1169,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            
+            <!-- Nearby Shifts Results -->
+            <div id="nearby-shifts-container" class="nearby-shifts hidden">
+                <h3><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Shifts Near You</h3>
+                <div id="closest-shift-info" class="closest-shift"></div>
+                <div id="nearby-shifts-table"></div>
             </div>
         </main>
     </div>
@@ -1537,8 +1683,9 @@
              console.log('Current classes:', tableContainer.className);
          }
          
-         // Make function globally accessible
+         // Make functions globally accessible
          window.toggleMobileView = toggleMobileView;
+         window.findNearestShift = findNearestShift;
          
          // Auto-detect very small screens and suggest card view
          function checkMobileViewSuggestion() {
@@ -1620,6 +1767,204 @@
                     Math.sin(dLng/2) * Math.sin(dLng/2);
             const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
             return R * c;
+        }
+        
+        // Find nearest shift functionality
+        function findNearestShift() {
+            const findBtn = document.getElementById('findNearMeBtn');
+            
+            if (!('geolocation' in navigator)) {
+                alert('Geolocation is not supported by this browser.');
+                return;
+            }
+            
+            // Disable button and show loading state
+            findBtn.disabled = true;
+            findBtn.innerHTML = '<i class="fas fa-spinner fa-spin" aria-hidden="true"></i> Finding your location...';
+            
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    userLocation = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+                    
+                    // Find closest shifts
+                    const shiftsWithDistance = allShifts.map(shift => ({
+                        ...shift,
+                        distance: calculateDistance(
+                            userLocation.lat, 
+                            userLocation.lng, 
+                            shift.lat, 
+                            shift.lng
+                        )
+                    })).sort((a, b) => a.distance - b.distance);
+                    
+                    const closestShift = shiftsWithDistance[0];
+                    const nearbyShifts = shiftsWithDistance.slice(0, 10); // Top 10 closest
+                    
+                    // Show map view and display results
+                    showMap();
+                    displayNearbyShifts(closestShift, nearbyShifts);
+                    
+                    // Center map on closest shift and user location
+                    if (map && closestShift) {
+                        const bounds = L.latLngBounds();
+                        bounds.extend([userLocation.lat, userLocation.lng]);
+                        bounds.extend([closestShift.lat, closestShift.lng]);
+                        map.fitBounds(bounds, { padding: [50, 50], maxZoom: 14 });
+                        
+                        // Add user location marker
+                        addUserLocationToMap();
+                        
+                        // Highlight closest shift marker
+                        highlightClosestShift(closestShift);
+                    }
+                    
+                    // Reset button
+                    findBtn.disabled = false;
+                    findBtn.innerHTML = '<i class="fas fa-location-arrow" aria-hidden="true"></i> Find a Shift near me';
+                    
+                    announceToScreenReader(`Found ${nearbyShifts.length} nearby shifts. Closest is ${closestShift.service_name} at ${closestShift.distance.toFixed(1)} km away.`);
+                },
+                (error) => {
+                    console.error('Geolocation error:', error);
+                    let errorMessage = 'Unable to get your location. ';
+                    
+                    switch(error.code) {
+                        case error.PERMISSION_DENIED:
+                            errorMessage += 'Please enable location access and try again.';
+                            break;
+                        case error.POSITION_UNAVAILABLE:
+                            errorMessage += 'Location information is unavailable.';
+                            break;
+                        case error.TIMEOUT:
+                            errorMessage += 'Location request timed out.';
+                            break;
+                        default:
+                            errorMessage += 'An unknown error occurred.';
+                            break;
+                    }
+                    
+                    alert(errorMessage);
+                    
+                    // Reset button
+                    findBtn.disabled = false;
+                    findBtn.innerHTML = '<i class="fas fa-location-arrow" aria-hidden="true"></i> Find a Shift near me';
+                },
+                {
+                    enableHighAccuracy: true,
+                    timeout: 15000,
+                    maximumAge: 300000 // 5 minutes
+                }
+            );
+        }
+        
+        // Display nearby shifts results
+        function displayNearbyShifts(closestShift, nearbyShifts) {
+            const container = document.getElementById('nearby-shifts-container');
+            const closestInfo = document.getElementById('closest-shift-info');
+            const nearbyTable = document.getElementById('nearby-shifts-table');
+            
+            if (!closestShift) {
+                container.classList.add('hidden');
+                return;
+            }
+            
+            // Show closest shift info
+            closestInfo.innerHTML = `
+                <h4><i class="fas fa-star" aria-hidden="true"></i> Closest Shift</h4>
+                <div class="distance-info">${closestShift.distance.toFixed(1)} km away</div>
+                <div class="shift-details">
+                    <div class="shift-detail">
+                        <strong>Location:</strong> ${closestShift.service_name || closestShift.location}
+                    </div>
+                    <div class="shift-detail">
+                        <strong>Address:</strong> ${closestShift.address || 'N/A'}, ${closestShift.suburb || ''}
+                    </div>
+                    <div class="shift-detail">
+                        <strong>Day:</strong> ${closestShift.day || 'N/A'}
+                    </div>
+                    <div class="shift-detail">
+                        <strong>Time:</strong> ${closestShift.start_time || 'N/A'} - ${closestShift.end_time || 'N/A'}
+                    </div>
+                    <div class="shift-detail">
+                        <strong>State:</strong> ${closestShift.state || 'N/A'}
+                    </div>
+                </div>
+                <div style="margin-top: 15px;">
+                    <button class="maps-btn" onclick="window.open('${generateGoogleMapsUrl(closestShift)}', '_blank')" 
+                            aria-label="Open ${closestShift.service_name || closestShift.location} in Google Maps">
+                        <i class="fab fa-google" aria-hidden="true"></i> Open in Google Maps
+                    </button>
+                </div>
+            `;
+            
+            // Create nearby shifts table
+            let tableHTML = `
+                <h4><i class="fas fa-list" aria-hidden="true"></i> Other Nearby Shifts</h4>
+                <div class="table-container">
+                    <table class="services-table">
+                        <thead>
+                            <tr>
+                                <th>Distance</th>
+                                <th>Location</th>
+                                <th>Day</th>
+                                <th>Time</th>
+                                <th>State</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            
+            nearbyShifts.slice(1).forEach(shift => { // Skip first (closest) shift
+                tableHTML += `
+                    <tr>
+                        <td><strong>${shift.distance.toFixed(1)} km</strong></td>
+                        <td>${shift.service_name || shift.location}</td>
+                        <td>${shift.day || 'N/A'}</td>
+                        <td>${shift.start_time || 'N/A'} - ${shift.end_time || 'N/A'}</td>
+                        <td>${shift.state || 'N/A'}</td>
+                        <td>
+                            <button class="maps-btn" onclick="window.open('${generateGoogleMapsUrl(shift)}', '_blank')" 
+                                    aria-label="Open ${shift.service_name || shift.location} in Google Maps">
+                                <i class="fab fa-google" aria-hidden="true"></i> Maps
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            });
+            
+            tableHTML += `
+                        </tbody>
+                    </table>
+                </div>
+            `;
+            
+            nearbyTable.innerHTML = tableHTML;
+            container.classList.remove('hidden');
+            
+            // Scroll to results
+            container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        // Highlight the closest shift marker on the map
+        function highlightClosestShift(closestShift) {
+            if (!map || !markersGroup) return;
+            
+            markersGroup.eachLayer(layer => {
+                if (layer.options && layer.options.shiftData && 
+                    layer.options.shiftData.lat === closestShift.lat && 
+                    layer.options.shiftData.lng === closestShift.lng) {
+                    
+                    // Open popup for closest shift
+                    layer.openPopup();
+                    
+                    // Add pulsing animation
+                    layer.getElement()?.classList.add('closest-marker');
+                }
+            });
         }
          
          // Sort table function with accessibility

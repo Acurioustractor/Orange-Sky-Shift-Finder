@@ -1,0 +1,13 @@
+[
+  {
+    "service_name": "North Hobart Uniting Church",
+    "suburb": "North Hobart",
+    "state": "TAS",
+    "address": "2 Swan Street,North Hobart,7000",
+    "lat": -42.872725,
+    "lng": 147.314291,
+    "day": "Wed",
+    "start_time": "09:30",
+    "end_time": "11:30"
+  }
+]

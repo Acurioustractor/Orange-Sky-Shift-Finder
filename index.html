@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find Orange Sky laundry and shower services near you. Accessible, mobile-friendly interface for locating community support services.">
+    <title>Orange Sky Shift Finder - Community Services Locator</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff6b35">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23ff6b35'/><text x='50' y='60' text-anchor='middle' fill='white' font-size='40'>OS</text></svg>">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            :root {
+                --primary-color: #000;
+                --secondary-color: #fff;
+                --accent-color: #000;
+            }
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        :root {
+            --primary-color: #ff6b35;
+            --secondary-color: #2c3e50;
+            --accent-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --error-color: #e74c3c;
+            --text-color: #2c3e50;
+            --bg-color: #f8f9fa;
+            --border-radius: 8px;
+            --shadow: 0 2px 10px rgba(0,0,0,0.1);
+            --touch-target: 44px; /* Minimum 44px for accessibility */
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--bg-color);
+            min-height: 100vh;
+            color: var(--text-color);
+            line-height: 1.6;
+            font-size: 16px; /* Base font size for better readability */
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #f7931e 100%);
+            color: white;
+            padding: clamp(20px, 5vw, 30px);
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 10px;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        .header p {
+            font-size: clamp(1rem, 2.5vw, 1.1rem);
+            opacity: 0.95;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Skip link for screen readers */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 4px;
+            z-index: 1000;
+        }
+
+        .skip-link:focus {
+            top: 6px;
+        }
+
+        .controls {
+            padding: clamp(20px, 4vw, 30px);
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .search-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr auto;
+            gap: 15px;
+            align-items: end;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #495057;
+        }
+
+        .form-group input,
+        .form-group select {
+            min-height: var(--touch-target);
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: var(--border-radius);
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+            background: white;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+            border-color: var(--primary-color);
+        }
+
+        .form-group input::placeholder {
+            color: #6c757d;
+            opacity: 1;
+        }
+
+        .btn {
+            min-height: var(--touch-target);
+            background: linear-gradient(135deg, var(--primary-color) 0%, #f7931e 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        .btn:hover:not(:disabled) {
+            transform: translateY(-1px);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .toggle-btn {
+            padding: 10px 20px;
+            border: 2px solid #ff6b35;
+            background: white;
+            color: #ff6b35;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-btn.active {
+            background: #ff6b35;
+            color: white;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            opacity: 0.9;
+        }
+
+        #tableView {
+            overflow-x: auto;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        .services-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .services-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: clamp(12px, 2vw, 15px);
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            font-size: 14px;
+            vertical-align: top;
+        }
+
+        .services-table td {
+            padding: clamp(12px, 2vw, 15px);
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+
+        .services-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .services-table tr:focus-within {
+            background: #e3f2fd;
+            outline: 2px solid var(--accent-color);
+        }
+
+        .status-active {
+            color: var(--success-color);
+            font-weight: 600;
+        }
+
+        .status-inactive {
+            color: var(--error-color);
+            font-weight: 600;
+        }
+
+        /* Google Maps button styling */
+        .maps-btn {
+            background: #4285f4;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: var(--border-radius);
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            min-height: 36px;
+            transition: background-color 0.3s ease;
+        }
+
+        .maps-btn:hover {
+            background: #3367d6;
+        }
+
+        .maps-btn:focus {
+            outline: 2px solid #4285f4;
+            outline-offset: 2px;
+        }
+
+        .day-badge {
+            background: #ff6b35;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .time-badge {
+            background: #28a745;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin-left: 5px;
+        }
+
+        #mapView {
+            height: 600px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .no-results h3 {
+            margin-bottom: 10px;
+        }
+
+        /* Mobile-first responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                margin: 0;
+                border-radius: 0;
+                min-height: 100vh;
+            }
+
+            .header {
+                padding: 20px 15px;
+            }
+
+            .controls {
+                padding: 20px 15px;
+            }
+
+            .search-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .form-group input,
+            .form-group select {
+                font-size: 16px; /* Prevents zoom on iOS */
+            }
+
+            .view-toggle {
+                justify-content: center;
+                gap: 8px;
+            }
+
+            .btn {
+                padding: 14px 20px;
+                font-size: 16px;
+            }
+
+            .stats {
+                grid-template-columns: 1fr;
+                gap: 10px;
+                text-align: center;
+            }
+
+            .stat-card {
+                padding: 15px;
+            }
+
+            .table-container {
+                margin: 15px;
+                border-radius: var(--border-radius);
+            }
+
+            .services-table {
+                font-size: 14px;
+            }
+
+            .services-table th,
+            .services-table td {
+                padding: 12px 8px;
+            }
+
+            /* Hide less important columns on mobile */
+            .hide-mobile {
+                display: none;
+            }
+
+            #mapView {
+                height: 50vh;
+                margin: 15px;
+                border-radius: var(--border-radius);
+            }
+        }
+
+        /* Tablet styles */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .container {
+                margin: 20px;
+            }
+
+            .search-grid {
+                gap: 12px;
+            }
+        }
+
+        /* Large screen optimizations */
+        @media (min-width: 1200px) {
+            .container {
+                margin: 40px auto;
+            }
+        }
+
+        /* Accessibility and offline styles */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 4px;
+            z-index: 1000;
+            font-weight: bold;
+        }
+        
+        .skip-link:focus {
+            top: 6px;
+        }
+        
+        .distance-info {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+        
+        .btn-maps {
+            background: #4285f4;
+            color: white;
+            border: none;
+            padding: clamp(0.4rem, 2vw, 0.6rem) clamp(0.6rem, 3vw, 0.8rem);
+            border-radius: var(--border-radius);
+            font-size: clamp(0.75rem, 2vw, 0.85rem);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin: 0.2rem;
+            min-height: var(--touch-target);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        
+        .btn-maps:hover {
+            background: #3367d6;
+            transform: translateY(-1px);
+        }
+        
+        .btn-maps:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+        
+        .btn-maps.apple-maps {
+            background: #007aff;
+        }
+        
+        .btn-maps.apple-maps:hover {
+            background: #0056cc;
+        }
+        
+        .action-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.2rem;
+        }
+        
+        .no-results-cell {
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        
+        .no-results-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            color: #666;
+        }
+        
+        .no-results-content i {
+            font-size: 3rem;
+            opacity: 0.5;
+        }
+        
+        .no-results-content h3 {
+            margin: 0;
+            color: #333;
+        }
+        
+        .no-results-content p {
+            margin: 0;
+            max-width: 300px;
+        }
+        
+        .error-message {
+            color: #dc3545;
+            text-align: center;
+            padding: 2rem;
+            font-weight: 500;
+        }
+        
+        .user-location-marker {
+            background: none;
+            border: none;
+        }
+        
+        .map-legend {
+            background: white;
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-top: 1rem;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+        }
+        
+        .legend-marker {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+        /* Offline indicator */
+        body.offline::before {
+            content: "⚠️ You're offline - some features may be limited";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #ffc107;
+            color: #212529;
+            text-align: center;
+            padding: 0.5rem;
+            z-index: 1000;
+            font-weight: 500;
+        }
+        
+        body.offline {
+            padding-top: 3rem;
+        }
+        
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            :root {
+                --primary-color: #000;
+                --text-color: #000;
+                --bg-color: #fff;
+                --border-color: #000;
+            }
+            
+            .btn {
+                border: 2px solid #000;
+            }
+            
+            .btn-maps {
+                background: #000;
+                border: 2px solid #000;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            .controls, .view-toggle, .action-buttons, .skip-link {
+                display: none;
+            }
+            
+            .table-container {
+                overflow: visible;
+            }
+            
+            table {
+                font-size: 12px;
+            }
+            
+            .distance-info {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <div class="container">
+        <header class="header" role="banner">
+            <h1><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Orange Sky Shift Finder</h1>
+            <p>Find laundry and shower services in your area. Accessible, mobile-friendly interface for locating community support services.</p>
+        </header>
+
+        <main id="main-content" role="main">
+            <section class="controls" aria-label="Search and filter options">
+                <div class="search-grid">
+                    <div class="form-group">
+                        <label for="locationSearch">Search Location</label>
+                        <input type="text" 
+                               id="locationSearch" 
+                               placeholder="Enter suburb, city, or postcode..."
+                               aria-describedby="location-help">
+                        <div id="location-help" class="sr-only">Search for Orange Sky services by location</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dayFilter">Day of Week</label>
+                        <select id="dayFilter" aria-describedby="day-help">
+                            <option value="">All Days</option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                        </select>
+                        <div id="day-help" class="sr-only">Filter services by day of the week</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="stateFilter">State/Territory</label>
+                        <select id="stateFilter" aria-describedby="state-help">
+                            <option value="">All States</option>
+                            <option value="NSW">NSW</option>
+                            <option value="VIC">VIC</option>
+                            <option value="QLD">QLD</option>
+                            <option value="WA">WA</option>
+                            <option value="SA">SA</option>
+                            <option value="TAS">TAS</option>
+                            <option value="ACT">ACT</option>
+                            <option value="NT">NT</option>
+                        </select>
+                        <div id="state-help" class="sr-only">Filter services by Australian state or territory</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button class="btn" 
+                                onclick="clearFilters()" 
+                                aria-describedby="clear-help">
+                            <i class="fas fa-times" aria-hidden="true"></i> Clear Filters
+                        </button>
+                        <div id="clear-help" class="sr-only">Remove all search filters</div>
+                    </div>
+                    
+                    <button class="btn" onclick="applyFilters()">Search</button>
+                </div>
+            
+                <div class="view-toggle" role="tablist" aria-label="View options">
+                    <button class="btn active" 
+                            onclick="showTable()" 
+                            id="tableBtn"
+                            role="tab"
+                            aria-selected="true"
+                            aria-controls="table-view">
+                        <i class="fas fa-table" aria-hidden="true"></i> Table View
+                    </button>
+                    <button class="btn" 
+                            onclick="showMap()" 
+                            id="mapBtn"
+                            role="tab"
+                            aria-selected="false"
+                            aria-controls="map-view">
+                        <i class="fas fa-map" aria-hidden="true"></i> Map View
+                    </button>
+                </div>
+            </section>
+
+        <div class="content">
+            <section class="stats" aria-label="Service statistics" aria-live="polite">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalShifts" aria-describedby="total-desc">0</span>
+                    <span class="stat-label" id="total-desc">Total Shifts Available</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="filteredShifts" aria-describedby="filtered-desc">0</span>
+                    <span class="stat-label" id="filtered-desc">Currently Showing</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="uniqueLocations" aria-describedby="locations-desc">0</span>
+                    <span class="stat-label" id="locations-desc">Service Locations</span>
+                </div>
+            </section>
+
+            <div id="table-view" role="tabpanel" aria-labelledby="tableBtn">
+                <div class="table-container">
+                    <table id="shiftsTable" role="table" aria-label="Orange Sky service shifts">
+                        <thead>
+                            <tr role="row">
+                                <th role="columnheader" 
+                                    onclick="sortTable('location')" 
+                                    tabindex="0"
+                                    aria-sort="none"
+                                    onkeydown="handleSortKeydown(event, 'location')">
+                                    Location <i class="fas fa-sort" aria-hidden="true"></i>
+                                    <span class="sr-only">Click to sort by location</span>
+                                </th>
+                                <th role="columnheader" 
+                                    onclick="sortTable('day')" 
+                                    tabindex="0"
+                                    aria-sort="none"
+                                    onkeydown="handleSortKeydown(event, 'day')">
+                                    Day <i class="fas fa-sort" aria-hidden="true"></i>
+                                    <span class="sr-only">Click to sort by day</span>
+                                </th>
+                                <th role="columnheader" 
+                                    onclick="sortTable('start_time')" 
+                                    tabindex="0"
+                                    aria-sort="none"
+                                    onkeydown="handleSortKeydown(event, 'start_time')">
+                                    Start Time <i class="fas fa-sort" aria-hidden="true"></i>
+                                    <span class="sr-only">Click to sort by start time</span>
+                                </th>
+                                <th role="columnheader" 
+                                    onclick="sortTable('end_time')" 
+                                    tabindex="0"
+                                    aria-sort="none"
+                                    onkeydown="handleSortKeydown(event, 'end_time')">
+                                    End Time <i class="fas fa-sort" aria-hidden="true"></i>
+                                    <span class="sr-only">Click to sort by end time</span>
+                                </th>
+                                <th role="columnheader" 
+                                    onclick="sortTable('state')" 
+                                    tabindex="0"
+                                    aria-sort="none"
+                                    onkeydown="handleSortKeydown(event, 'state')">
+                                    State <i class="fas fa-sort" aria-hidden="true"></i>
+                                    <span class="sr-only">Click to sort by state</span>
+                                </th>
+                                <th role="columnheader" class="mobile-hide">Address</th>
+                                <th role="columnheader">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="shiftsTableBody" role="rowgroup">
+                            <!-- Data will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+                <div id="noResults" class="no-results hidden">
+                    <h3>No services found</h3>
+                    <p>Try adjusting your search criteria or filters</p>
+                </div>
+            </div>
+
+            <div id="map-view" class="hidden" role="tabpanel" aria-labelledby="mapBtn">
+                <div class="map-container">
+                    <div id="map" 
+                         style="height: 500px; border-radius: 8px;" 
+                         role="application" 
+                         aria-label="Interactive map showing Orange Sky service locations"
+                         tabindex="0">
+                    </div>
+                    <div class="map-legend" role="complementary" aria-label="Map legend">
+                        <h4>Map Legend</h4>
+                        <div class="legend-item">
+                            <span class="legend-marker" style="background: #ff6b35;" aria-hidden="true"></span>
+                            <span>Orange Sky Service Location</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-marker" style="background: #4285f4;" aria-hidden="true"></span>
+                            <span>Your Location (if enabled)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        let allShifts = [];
+        let filteredShifts = [];
+        let map = null;
+        let markersGroup = null;
+        let userLocation = null;
+        let isOffline = !navigator.onLine;
+        let sortColumn = '';
+        let sortDirection = 'asc';
+        
+        // Accessibility and mobile enhancements
+        const announceToScreenReader = (message) => {
+            if (!document.body) {
+                console.warn('Document body not available for screen reader announcement');
+                return;
+            }
+            const announcement = document.createElement('div');
+            announcement.setAttribute('aria-live', 'polite');
+            announcement.setAttribute('aria-atomic', 'true');
+            announcement.className = 'sr-only';
+            announcement.textContent = message;
+            document.body.appendChild(announcement);
+            setTimeout(() => {
+                if (document.body && announcement.parentNode) {
+                    document.body.removeChild(announcement);
+                }
+            }, 1000);
+        };
+        
+        // Handle keyboard navigation for sortable headers
+        const handleSortKeydown = (event, column) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                sortTable(column);
+            }
+        };
+
+        // Load data when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadShiftData();
+        });
+
+        async function loadShiftData() {
+            console.log('Starting loadShiftData function');
+            try {
+                announceToScreenReader('Loading Orange Sky service data...');
+                
+                // Try multiple fetch approaches
+                let response = null;
+                let lastError = null;
+                const urls = [
+                    'orange_sky_shifts_api.json',
+                    './orange_sky_shifts_api.json',
+                    '/orange_sky_shifts_api.json'
+                ];
+                
+                console.log('Attempting to fetch from URLs:', urls);
+                
+                for (let i = 0; i < urls.length; i++) {
+                    const url = urls[i];
+                    try {
+                        console.log(`Attempting fetch from: ${url}`);
+                        response = await fetch(url);
+                        console.log(`Fetch response for ${url}:`, {
+                            ok: response.ok,
+                            status: response.status,
+                            statusText: response.statusText
+                        });
+                        
+                        if (response.ok) {
+                            console.log(`Successfully fetched from: ${url}`);
+                            break;
+                        } else {
+                            lastError = new Error(`HTTP ${response.status}: ${response.statusText}`);
+                        }
+                    } catch (e) {
+                        console.log(`Failed to fetch from ${url}:`, e.message);
+                        lastError = e;
+                        response = null;
+                    }
+                }
+                
+                if (!response || !response.ok) {
+                    throw lastError || new Error('All fetch attempts failed');
+                }
+                
+                console.log('Parsing JSON response...');
+                const jsonData = await response.json();
+                console.log('JSON parsed successfully, data length:', jsonData.length);
+                
+                allShifts = jsonData;
+                filteredShifts = [...allShifts];
+                
+                console.log('Updating UI components...');
+                updateStats();
+                renderTable();
+                initializeMap();
+                
+                announceToScreenReader(`Loaded ${allShifts.length} Orange Sky service shifts successfully`);
+                console.log('loadShiftData completed successfully');
+                
+                // Request user location for better experience
+                requestUserLocation();
+                
+            } catch (error) {
+                console.error('Error in loadShiftData:', error);
+                console.error('Error details:', {
+                    message: error.message,
+                    stack: error.stack,
+                    isOffline: !navigator.onLine,
+                    currentURL: window.location.href,
+                    userAgent: navigator.userAgent
+                });
+                
+                const errorMessage = !navigator.onLine ? 
+                    'You appear to be offline. Please check your internet connection.' :
+                    `Error loading service data: ${error.message}. Please refresh the page or try again later.`;
+                    
+                document.getElementById('shiftsTableBody').innerHTML = 
+                    `<tr><td colspan="7" class="error-message">${errorMessage}</td></tr>`;
+                    
+                announceToScreenReader(errorMessage);
+            }
+        }
+        
+        // Request user location for proximity features
+        function requestUserLocation() {
+            if ('geolocation' in navigator) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        userLocation = {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude
+                        };
+                        announceToScreenReader('Location access granted for better service recommendations');
+                        if (map) {
+                            addUserLocationToMap();
+                        }
+                    },
+                    (error) => {
+                        console.log('Location access denied or unavailable:', error.message);
+                        // Don't announce this as it's not critical
+                    },
+                    {
+                        enableHighAccuracy: false,
+                        timeout: 10000,
+                        maximumAge: 300000 // 5 minutes
+                    }
+                );
+            }
+        }
+
+        function updateStats() {
+            const uniqueServices = new Set(filteredShifts.map(shift => shift.service_name)).size;
+            const totalShifts = allShifts.length;
+            
+            // Add null checks to prevent TypeError
+            const totalShiftsEl = document.getElementById('totalShifts');
+            const filteredShiftsEl = document.getElementById('filteredShifts');
+            const uniqueLocationsEl = document.getElementById('uniqueLocations');
+            
+            if (totalShiftsEl) {
+                totalShiftsEl.textContent = totalShifts;
+            } else {
+                console.warn('Element with id "totalShifts" not found');
+            }
+            
+            if (filteredShiftsEl) {
+                filteredShiftsEl.textContent = filteredShifts.length;
+            } else {
+                console.warn('Element with id "filteredShifts" not found');
+            }
+            
+            if (uniqueLocationsEl) {
+                uniqueLocationsEl.textContent = uniqueServices;
+            } else {
+                console.warn('Element with id "uniqueLocations" not found');
+            }
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('shiftsTableBody');
+            
+            if (filteredShifts.length === 0) {
+                tbody.innerHTML = `
+                    <tr role="row">
+                        <td colspan="7" class="no-results-cell">
+                            <div class="no-results-content">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                                <h3>No services found</h3>
+                                <p>Try adjusting your search criteria or clearing filters to see more results.</p>
+                                <button class="btn" onclick="clearFilters()">
+                                    <i class="fas fa-times" aria-hidden="true"></i> Clear All Filters
+                                </button>
+                            </div>
+                        </td>
+                    </tr>`;
+                announceToScreenReader('No services found matching your criteria');
+                return;
+            }
+            
+            tbody.innerHTML = filteredShifts.map((shift, index) => {
+                // Calculate distance if user location is available
+                let distanceInfo = '';
+                if (userLocation && shift.lat && shift.lng) {
+                    const distance = calculateDistance(
+                        userLocation.lat, userLocation.lng,
+                        parseFloat(shift.lat), parseFloat(shift.lng)
+                    );
+                    distanceInfo = ` (${distance.toFixed(1)}km away)`;
+                }
+                
+                const googleMapsUrl = generateGoogleMapsUrl(shift);
+                const appleMapsUrl = generateAppleMapsUrl(shift);
+                
+                return `
+                    <tr role="row" tabindex="0" aria-rowindex="${index + 2}">
+                        <td role="gridcell">
+                            <strong>${shift.service_name || shift.location || 'N/A'}</strong>
+                            ${distanceInfo ? `<br><small class="distance-info">${distanceInfo}</small>` : ''}
+                        </td>
+                        <td role="gridcell">
+                            <span class="day-badge">${shift.day || 'N/A'}</span>
+                        </td>
+                        <td role="gridcell">
+                            <span class="time-badge">${shift.start_time || 'N/A'}</span>
+                        </td>
+                        <td role="gridcell">
+                            <span class="time-badge">${shift.end_time || 'N/A'}</span>
+                        </td>
+                        <td role="gridcell">${shift.state || 'N/A'}</td>
+                        <td role="gridcell" class="mobile-hide">
+                            ${shift.address ? `${shift.address}, ${shift.suburb}` : 'N/A'}
+                        </td>
+                        <td role="gridcell">
+                            <div class="action-buttons">
+                                <button class="btn-maps" 
+                                        onclick="openGoogleMaps('${googleMapsUrl}')"
+                                        aria-label="Get directions to ${shift.service_name || shift.location} via Google Maps">
+                                    <i class="fab fa-google" aria-hidden="true"></i>
+                                    <span class="btn-text">Google</span>
+                                </button>
+                                <button class="btn-maps apple-maps" 
+                                        onclick="openAppleMaps('${appleMapsUrl}')"
+                                        aria-label="Get directions to ${shift.service_name || shift.location} via Apple Maps"
+                                        style="display: none;">
+                                    <i class="fas fa-map" aria-hidden="true"></i>
+                                    <span class="btn-text">Apple</span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+            
+            // Show Apple Maps buttons on iOS devices
+            if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+                document.querySelectorAll('.apple-maps').forEach(btn => {
+                    btn.style.display = 'inline-block';
+                });
+            }
+            
+            announceToScreenReader(`Table updated with ${filteredShifts.length} service shifts`);
+        }
+
+        function initializeMap() {
+            if (map) {
+                map.remove();
+            }
+            
+            map = L.map('map').setView([-25.2744, 133.7751], 5); // Center of Australia
+            
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            
+            updateMapMarkers();
+        }
+
+        function updateMapMarkers() {
+            if (markersGroup) {
+                map.removeLayer(markersGroup);
+            }
+            
+            markersGroup = L.layerGroup().addTo(map);
+            
+            // Group shifts by location to avoid overlapping markers
+            const locationGroups = {};
+            filteredShifts.forEach(shift => {
+                const key = `${shift.lat},${shift.lng}`;
+                if (!locationGroups[key]) {
+                    locationGroups[key] = {
+                        lat: shift.lat,
+                        lng: shift.lng,
+                        service_name: shift.service_name,
+                        address: shift.address,
+                        suburb: shift.suburb,
+                        state: shift.state,
+                        shifts: []
+                    };
+                }
+                locationGroups[key].shifts.push(shift);
+            });
+            
+            Object.values(locationGroups).forEach(location => {
+                const shiftsHtml = location.shifts.map(shift => 
+                    `<div style="margin: 5px 0;"><span class="day-badge">${shift.day}</span> <span class="time-badge">${shift.start_time} - ${shift.end_time}</span></div>`
+                ).join('');
+                
+                const popupContent = `
+                    <div style="min-width: 200px;">
+                        <h4 style="margin: 0 0 10px 0; color: #ff6b35;">${location.service_name}</h4>
+                        <p style="margin: 0 0 10px 0;"><strong>📍 ${location.address}, ${location.suburb}, ${location.state}</strong></p>
+                        <div style="max-height: 150px; overflow-y: auto;">
+                            <strong>Available Times:</strong>
+                            ${shiftsHtml}
+                        </div>
+                    </div>
+                `;
+                
+                L.marker([location.lat, location.lng])
+                    .bindPopup(popupContent)
+                    .addTo(markersGroup);
+            });
+            
+            // Fit map to show all markers if there are any
+            if (Object.keys(locationGroups).length > 0) {
+                const group = new L.featureGroup(Object.values(locationGroups).map(loc => 
+                    L.marker([loc.lat, loc.lng])
+                ));
+                map.fitBounds(group.getBounds().pad(0.1));
+            }
+        }
+
+        function applyFilters() {
+            const locationSearch = document.getElementById('locationSearch').value.toLowerCase();
+            const dayFilter = document.getElementById('dayFilter').value;
+            const stateFilter = document.getElementById('stateFilter').value;
+            
+            filteredShifts = allShifts.filter(shift => {
+                const matchesLocation = !locationSearch || 
+                    shift.service_name.toLowerCase().includes(locationSearch) ||
+                    shift.suburb.toLowerCase().includes(locationSearch) ||
+                    shift.address.toLowerCase().includes(locationSearch);
+                    
+                const matchesDay = !dayFilter || shift.day === dayFilter;
+                const matchesState = !stateFilter || shift.state === stateFilter;
+                
+                return matchesLocation && matchesDay && matchesState;
+            });
+            
+            updateStats();
+            renderTable();
+            if (map) {
+                updateMapMarkers();
+            }
+        }
+
+        function showTable() {
+            const tableView = document.getElementById('table-view');
+            const mapView = document.getElementById('map-view');
+            const tableBtn = document.getElementById('tableBtn');
+            const mapBtn = document.getElementById('mapBtn');
+            
+            tableView.classList.remove('hidden');
+            mapView.classList.add('hidden');
+            tableBtn.classList.add('active');
+            mapBtn.classList.remove('active');
+            
+            // Update ARIA attributes
+            tableBtn.setAttribute('aria-selected', 'true');
+            mapBtn.setAttribute('aria-selected', 'false');
+            tableView.setAttribute('aria-hidden', 'false');
+            mapView.setAttribute('aria-hidden', 'true');
+            
+            announceToScreenReader('Switched to table view');
+            
+            // Focus management for accessibility
+            tableView.focus();
+        }
+
+        function showMap() {
+            const tableView = document.getElementById('table-view');
+            const mapView = document.getElementById('map-view');
+            const tableBtn = document.getElementById('tableBtn');
+            const mapBtn = document.getElementById('mapBtn');
+            
+            tableView.classList.add('hidden');
+            mapView.classList.remove('hidden');
+            tableBtn.classList.remove('active');
+            mapBtn.classList.add('active');
+            
+            // Update ARIA attributes
+            tableBtn.setAttribute('aria-selected', 'false');
+            mapBtn.setAttribute('aria-selected', 'true');
+            tableView.setAttribute('aria-hidden', 'true');
+            mapView.setAttribute('aria-hidden', 'false');
+            
+            announceToScreenReader('Switched to map view');
+            
+            // Initialize map if not already done
+            if (!map) {
+                setTimeout(initializeMap, 100);
+            } else {
+                setTimeout(() => map.invalidateSize(), 100);
+            }
+            
+            // Focus management for accessibility
+            document.getElementById('map').focus();
+        }
+
+        function clearFilters() {
+             document.getElementById('locationSearch').value = '';
+             document.getElementById('dayFilter').value = '';
+             document.getElementById('stateFilter').value = '';
+             applyFilters();
+             announceToScreenReader('All filters cleared');
+         }
+         
+         // Google Maps integration functions
+         function generateGoogleMapsUrl(shift) {
+             const address = shift.address && shift.suburb ? 
+                 `${shift.address}, ${shift.suburb}, ${shift.state}` : 
+                 `${shift.service_name || shift.location}, ${shift.state}`;
+             return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+         }
+         
+         function generateAppleMapsUrl(shift) {
+             const address = shift.address && shift.suburb ? 
+                 `${shift.address}, ${shift.suburb}, ${shift.state}` : 
+                 `${shift.service_name || shift.location}, ${shift.state}`;
+             return `http://maps.apple.com/?q=${encodeURIComponent(address)}`;
+         }
+         
+         function openGoogleMaps(url) {
+             window.open(url, '_blank', 'noopener,noreferrer');
+             announceToScreenReader('Opening Google Maps in new tab');
+         }
+         
+         function openAppleMaps(url) {
+             window.open(url, '_blank', 'noopener,noreferrer');
+             announceToScreenReader('Opening Apple Maps in new tab');
+         }
+         
+         // Distance calculation using Haversine formula
+         function calculateDistance(lat1, lon1, lat2, lon2) {
+             const R = 6371; // Radius of the Earth in kilometers
+             const dLat = (lat2 - lat1) * Math.PI / 180;
+             const dLon = (lon2 - lon1) * Math.PI / 180;
+             const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                     Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                     Math.sin(dLon/2) * Math.sin(dLon/2);
+             const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+             return R * c;
+         }
+         
+         // Add user location to map
+         function addUserLocationToMap() {
+             if (map && userLocation) {
+                 L.marker([userLocation.lat, userLocation.lng], {
+                     icon: L.divIcon({
+                         className: 'user-location-marker',
+                         html: '<i class="fas fa-user-circle" style="color: #4285f4; font-size: 20px;"></i>',
+                         iconSize: [20, 20],
+                         iconAnchor: [10, 10]
+                     })
+                 })
+                 .bindPopup('Your Location')
+                 .addTo(map);
+             }
+         }
+         
+         // Sort table function with accessibility
+         function sortTable(column) {
+             if (sortColumn === column) {
+                 sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+             } else {
+                 sortColumn = column;
+                 sortDirection = 'asc';
+             }
+             
+             filteredShifts.sort((a, b) => {
+                 let aVal = a[column] || '';
+                 let bVal = b[column] || '';
+                 
+                 // Handle time sorting
+                 if (column === 'start_time' || column === 'end_time') {
+                     aVal = convertTimeToMinutes(aVal);
+                     bVal = convertTimeToMinutes(bVal);
+                 }
+                 
+                 if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
+                 if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
+                 return 0;
+             });
+             
+             // Update ARIA sort attributes
+             document.querySelectorAll('th[aria-sort]').forEach(th => {
+                 th.setAttribute('aria-sort', 'none');
+             });
+             
+             const currentHeader = document.querySelector(`th[onclick="sortTable('${column}')"]`);
+             if (currentHeader) {
+                 currentHeader.setAttribute('aria-sort', sortDirection === 'asc' ? 'ascending' : 'descending');
+             }
+             
+             renderTable();
+             announceToScreenReader(`Table sorted by ${column} in ${sortDirection}ending order`);
+         }
+         
+         // Convert time string to minutes for sorting
+         function convertTimeToMinutes(timeStr) {
+             if (!timeStr || timeStr === 'N/A') return 0;
+             const match = timeStr.match(/(\d{1,2}):(\d{2})\s*(am|pm)/i);
+             if (!match) return 0;
+             
+             let hours = parseInt(match[1]);
+             const minutes = parseInt(match[2]);
+             const period = match[3].toLowerCase();
+             
+             if (period === 'pm' && hours !== 12) hours += 12;
+             if (period === 'am' && hours === 12) hours = 0;
+             
+             return hours * 60 + minutes;
+         }
+
+        // Network status and offline functionality
+        window.addEventListener('online', () => {
+            isOffline = false;
+            announceToScreenReader('Connection restored');
+            document.body.classList.remove('offline');
+        });
+        
+        window.addEventListener('offline', () => {
+            isOffline = true;
+            announceToScreenReader('You are now offline. Some features may be limited.');
+            document.body.classList.add('offline');
+        });
+        
+        // Service Worker registration for PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(registrationError => {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+        
+        // Add real-time search with debouncing
+        let searchTimeout;
+        document.getElementById('locationSearch').addEventListener('input', (e) => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                applyFilters();
+                announceToScreenReader(`Search updated: ${e.target.value || 'cleared'}`);
+            }, 300);
+        });
+        
+        document.getElementById('dayFilter').addEventListener('change', (e) => {
+            applyFilters();
+            announceToScreenReader(`Day filter: ${e.target.value || 'all days'}`);
+        });
+        
+        document.getElementById('stateFilter').addEventListener('change', (e) => {
+            applyFilters();
+            announceToScreenReader(`State filter: ${e.target.value || 'all states'}`);
+        });
+        
+        // Keyboard shortcuts for accessibility
+        document.addEventListener('keydown', (e) => {
+            // Alt + T for table view
+            if (e.altKey && e.key === 't') {
+                e.preventDefault();
+                showTable();
+            }
+            // Alt + M for map view
+            if (e.altKey && e.key === 'm') {
+                e.preventDefault();
+                showMap();
+            }
+            // Alt + C to clear filters
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                clearFilters();
+            }
+            // Alt + S to focus search
+            if (e.altKey && e.key === 's') {
+                e.preventDefault();
+                document.getElementById('locationSearch').focus();
+            }
+        });
+    </script>
+</body>
+</html>

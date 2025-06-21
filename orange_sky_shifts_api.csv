@@ -1,0 +1,242 @@
+service_name,suburb,state,address,lat,lng,day,start_time,end_time,shift_status,van_asset
+Wurrumiyanga,Wurrumiyanga,NT,Wurrumiyanga,-11.761922,130.6318,Monday,2:00 pm,6:00 pm,Shift Status,Van Asset
+Wurrumiyanga,Wurrumiyanga,NT,Wurrumiyanga,-11.761922,130.6318,Tuesday,10:30 am,5:00 pm,Shift Status,Van Asset
+Wurrumiyanga,Wurrumiyanga,NT,Wurrumiyanga,-11.761922,130.6318,Wednesday,10:30 am,5:00 pm,Shift Status,Van Asset
+Wurrumiyanga,Wurrumiyanga,NT,Wurrumiyanga,-11.761922,130.6318,Thursday,10:30 am,5:00 pm,Shift Status,Van Asset
+Wurrumiyanga,Wurrumiyanga,NT,Wurrumiyanga,-11.761922,130.6318,Friday,10:30 am,5:00 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Friday,9:00 am,4:00 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Thursday,9:00 am,4:00 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Wednesday,9:00 am,4:00 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Tuesday,9:00 am,4:00 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Monday,9:00 am,4:00 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Sunday,9:00 am,4:00 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Thursday,12:30 pm,3:30 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Friday,12:30 pm,3:30 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Friday,8:00 am,11:30 am,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Tuesday,12:30 pm,3:30 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Tuesday,8:00 am,11:30 am,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Wednesday,12:30 pm,3:30 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Wednesday,8:00 am,11:30 am,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Monday,12:30 pm,3:30 pm,Shift Status,Van Asset
+Maningrida Bottom Camp,Maningrida,NT,Bottom Camp,-12.055167,134.23138,Monday,8:00 am,11:30 am,Shift Status,Van Asset
+Darwin Christian Church,Parap,NT,36 Parap Road,-12.431786,130.843749,Sunday,8:30 am,10:30 am,Shift Status,Van Asset
+Arts in the Grass,The Gardens,NT,The Gardens,-12.445574,130.831155,Wednesday,9:30 am,12:00 pm,Shift Status,Van Asset
+Palmerston Rec Centre,Palmerston City,NT,11 The Boulevard,-12.479292,130.984536,Tuesday,8:00 am,10:00 am,Shift Status,Van Asset
+Gapuwiyak,Gapuwiyak,NT,"Gapuwiyaklake Evella Cpa, 9 Bambinamirri Street",-12.503485,135.80537,Friday,9:00 am,4:00 pm,Shift Status,Van Asset
+Gapuwiyak,Gapuwiyak,NT,"Gapuwiyaklake Evella Cpa, 9 Bambinamirri Street",-12.503485,135.80537,Monday,9:00 am,4:00 pm,Shift Status,Van Asset
+Gapuwiyak,Gapuwiyak,NT,"Gapuwiyaklake Evella Cpa, 9 Bambinamirri Street",-12.503485,135.80537,Thursday,9:00 am,4:00 pm,Shift Status,Van Asset
+Gapuwiyak,Gapuwiyak,NT,"Gapuwiyaklake Evella Cpa, 9 Bambinamirri Street",-12.503485,135.80537,Tuesday,9:00 am,4:00 pm,Shift Status,Van Asset
+Gapuwiyak,Gapuwiyak,NT,"Gapuwiyaklake Evella Cpa, 9 Bambinamirri Street",-12.503485,135.80537,Wednesday,9:00 am,4:00 pm,Shift Status,Van Asset
+Lockhart River,Lockhart River,Unknown,Lockhart River,-12.786055,143.341866,Friday,9:00 am,12:00 pm,Shift Status,Van Asset
+Lockhart River,Lockhart River,Unknown,Lockhart River,-12.786055,143.341866,Thursday,9:00 am,12:00 pm,Shift Status,Van Asset
+Lockhart River,Lockhart River,Unknown,Lockhart River,-12.786055,143.341866,Wednesday,9:00 am,12:00 pm,Shift Status,Van Asset
+Lockhart River,Lockhart River,Unknown,Lockhart River,-12.786055,143.341866,Tuesday,9:00 am,12:00 pm,Shift Status,Van Asset
+Lockhart River,Lockhart River,Unknown,Lockhart River,-12.786055,143.341866,Monday,9:00 am,12:00 pm,Shift Status,Van Asset
+Aurukun | Fridays | 8am - 4pm,Aurukun,QLD,428 Kor Street,-13.355805,141.723548,Monday,8:00 am,4:00 pm,Shift Status,Van Asset
+Aurukun | Fridays | 8am - 4pm,Aurukun,QLD,428 Kor Street,-13.355805,141.723548,Tuesday,8:00 am,4:00 pm,Shift Status,Van Asset
+Aurukun | Fridays | 8am - 4pm,Aurukun,QLD,428 Kor Street,-13.355805,141.723548,Wednesday,8:00 am,4:00 pm,Shift Status,Van Asset
+Aurukun | Fridays | 8am - 4pm,Aurukun,QLD,428 Kor Street,-13.355805,141.723548,Thursday,8:00 am,4:00 pm,Shift Status,Van Asset
+Aurukun | Fridays | 8am - 4pm,Aurukun,QLD,428 Kor Street,-13.355805,141.723548,Friday,8:00 am,4:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Friday,9:00 am,4:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Monday,9:00 am,4:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Thursday,9:00 am,4:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Tuesday,9:00 am,4:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Wednesday,9:00 am,4:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Friday,9:00 am,3:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Monday,9:00 am,3:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Thursday,9:00 am,3:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Tuesday,9:00 am,3:00 pm,Shift Status,Van Asset
+Wadeye,Wadeye,NT,Kanarlda Street,-14.237414,129.518786,Wednesday,9:00 am,4:00 pm,Shift Status,Van Asset
+Nganmarriyanga Pod,Nganmarriyanga,NT,Nganmarriyanga,-14.352393,129.88225,Friday,8:00 am,3:00 pm,Shift Status,Van Asset
+Nganmarriyanga Pod,Nganmarriyanga,NT,Nganmarriyanga,-14.352393,129.88225,Monday,8:00 am,3:00 pm,Shift Status,Van Asset
+Nganmarriyanga Pod,Nganmarriyanga,NT,Nganmarriyanga,-14.352393,129.88225,Thursday,8:00 am,3:00 pm,Shift Status,Van Asset
+Nganmarriyanga Pod,Nganmarriyanga,NT,Nganmarriyanga,-14.352393,129.88225,Tuesday,8:00 am,3:00 pm,Shift Status,Van Asset
+Nganmarriyanga Pod,Nganmarriyanga,NT,Nganmarriyanga,-14.352393,129.88225,Wednesday,8:00 am,3:00 pm,Shift Status,Van Asset
+Mornington Island,Wellesley Islands,QLD,Lardil Street,-16.665093,139.179393,Monday,9:00 am,3:00 pm,Shift Status,Van Asset
+Mornington Island,Wellesley Islands,QLD,Lardil Street,-16.665093,139.179393,Tuesday,9:00 am,3:00 pm,Shift Status,Van Asset
+Mornington Island,Wellesley Islands,QLD,Lardil Street,-16.665093,139.179393,Wednesday,9:00 am,3:00 pm,Shift Status,Van Asset
+Mornington Island,Wellesley Islands,QLD,Lardil Street,-16.665093,139.179393,Thursday,9:00 am,3:00 pm,Shift Status,Van Asset
+Mornington Island,Wellesley Islands,QLD,Lardil Street,-16.665093,139.179393,Friday,9:00 am,3:00 pm,Shift Status,Van Asset
+Centacare,Manunda,QLD,212 McCormack Street,-16.916905,145.7454,Friday,10:00 am,12:00 pm,Shift Status,Van Asset
+Cairns Villas,Manoora,QLD,28 Pease Street,-16.921249,145.741267,Monday,8:00 am,11:00 am,Shift Status,Van Asset
+Rosies and WOW,Parramatta Park,QLD,251-269 Severin Street,-16.927381,145.765017,Thursday,5:00 pm,8:00 pm,Shift Status,Van Asset
+Gardner St Park,Pioneer,QLD,15 Gardner Street,-20.718268,139.510135,Tuesday,9:00 am,12:00 pm,Shift Status,Van Asset
+RAGOSS Dinner Camp,Mornington,QLD,4 Burke Street,-20.731269,139.491519,Friday,9:00 am,12:00 pm,Shift Status,Van Asset
+RAGOSS Dinner Camp,Mornington,QLD,4 Burke Street,-20.731269,139.491519,Wednesday,9:00 am,12:00 pm,Shift Status,Van Asset
+Yallambee Aboriginal Reserve,Healy,QLD,Duchess Road,-20.746524,139.495311,Monday,9:00 am,12:00 pm,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Monday,7:00 am,9:00 am,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Monday,9:00 am,11:00 am,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Monday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Wednesday,7:00 am,9:00 am,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Wednesday,9:00 am,11:00 am,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Wednesday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Friday,7:00 am,9:00 am,Shift Status,Van Asset
+Girl Guides,South Mackay,QLD,Sydney Street,-21.149917,149.185698,Friday,9:00 am,11:00 am,Shift Status,Van Asset
+Sarina Neighbourhood Centre,Sarina,QLD,65 Broad Street,-21.421376,149.216527,Monday,9:00 am,11:00 am,Shift Status,Van Asset
+Sarina Neighbourhood Centre,Sarina,QLD,65 Broad Street,-21.421376,149.216527,Thursday,9:00 am,11:00 am,Shift Status,Van Asset
+Yuendumu,Yuendumu,NT,Yuendumu,-22.253957,131.795388,Friday,9:00 am,2:00 pm,Shift Status,Van Asset
+Yuendumu,Yuendumu,NT,Yuendumu,-22.253957,131.795388,Monday,9:00 am,2:00 pm,Shift Status,Van Asset
+Yuendumu,Yuendumu,NT,Yuendumu,-22.253957,131.795388,Thursday,9:00 am,2:00 pm,Shift Status,Van Asset
+Yuendumu,Yuendumu,NT,Yuendumu,-22.253957,131.795388,Tuesday,9:00 am,2:00 pm,Shift Status,Van Asset
+Yuendumu,Yuendumu,NT,Yuendumu,-22.253957,131.795388,Wednesday,9:00 am,2:00 pm,Shift Status,Van Asset
+Salvation Army,North Rockhampton,QLD,131-137 Park Street,-23.356703,150.516821,Friday,9:00 am,11:00 am,Shift Status,Van Asset
+Salvation Army,North Rockhampton,QLD,131-137 Park Street,-23.356703,150.516821,Wednesday,9:00 am,11:00 am,Shift Status,Van Asset
+Alice Springs,Alice Springs,NT,Alice Springs,-23.698042,133.880747,Monday,9:00 am,1:00 pm,Shift Status,Van Asset
+Alice Springs,Alice Springs,NT,Alice Springs,-23.698042,133.880747,Tuesday,9:00 am,1:00 pm,Shift Status,Van Asset
+Alice Springs,Alice Springs,NT,Alice Springs,-23.698042,133.880747,Wednesday,9:00 am,1:00 pm,Shift Status,Van Asset
+Alice Springs,Alice Springs,NT,Alice Springs,-23.698042,133.880747,Thursday,9:00 am,1:00 pm,Shift Status,Van Asset
+Alice Springs,Alice Springs,NT,Alice Springs,-23.698042,133.880747,Friday,9:00 am,1:00 pm,Shift Status,Van Asset
+Philip St Precinct Salvation Army,West Gladstone,QLD,1 Pengelly Street,-23.870521,151.251513,Tuesday,9:30 am,11:30 am,Shift Status,Van Asset
+Philip St Precinct Salvation Army,West Gladstone,QLD,1 Pengelly Street,-23.870521,151.251513,Wednesday,8:30 am,11:30 am,Shift Status,Van Asset
+Angels Mini Mart,Bundaberg Central,QLD,66 Targo Street,-24.868624,152.352437,Friday,10:00 am,12:00 pm,Shift Status,Van Asset
+Angels Mini Mart,Bundaberg Central,QLD,66 Targo Street,-24.868624,152.352437,Monday,3:30 pm,5:30 pm,Shift Status,Van Asset
+Angels Mini Mart,Bundaberg Central,QLD,66 Targo Street,-24.868624,152.352437,Thursday,3:00 pm,5:00 pm,Shift Status,Van Asset
+Angels Mini Mart,Bundaberg Central,QLD,66 Targo Street,-24.868624,152.352437,Tuesday,8:00 am,11:00 am,Shift Status,Van Asset
+The Food Pantry,Coolum Beach,QLD,22 Elizabeth Street,-26.528588,153.088364,Tuesday,9:00 am,12:00 pm,Shift Status,Van Asset
+The Shack,Nambour,QLD,19 Price Street,-26.624578,152.957991,Monday,7:30 am,10:30 am,Shift Status,Van Asset
+Daily Bread,Nambour,QLD,10 Sydney Street,-26.627801,152.960728,Monday,3:00 pm,6:00 pm,Shift Status,Van Asset
+Daily Bread,Nambour,QLD,10 Sydney Street,-26.627801,152.960728,Wednesday,3:00 pm,6:00 pm,Shift Status,Van Asset
+Stella Maris,Maroochydore,QLD,41 Baden Powell Street,-26.651784,153.088162,Friday,5:00 pm,7:30 pm,Shift Status,Van Asset
+Maroochy Centre,Maroochydore,QLD,2 Fifth Avenue,-26.657035,153.100901,Thursday,4:00 pm,6:30 pm,Shift Status,Van Asset
+Maroochy Centre,Maroochydore,QLD,2 Fifth Avenue,-26.657035,153.100901,Tuesday,3:00 pm,6:00 pm,Shift Status,Van Asset
+Maleny Neighbourhood Centre,Maleny,QLD,17 Bicentenary Lane,-26.759383,152.849843,Thursday,9:00 am,12:00 pm,Shift Status,Van Asset
+Maleny Neighbourhood Centre,Maleny,QLD,17 Bicentenary Lane,-26.759383,152.849843,Tuesday,9:00 am,12:00 pm,Shift Status,Van Asset
+Caloundra Community Centre,Caloundra,QLD,58A Queen Street,-26.794494,153.130668,Friday,9:00 am,12:00 pm,Shift Status,Van Asset
+Salvos House 4 Hope,Caloundra,QLD,4 Ormuz Avenue,-26.804138,153.134313,Wednesday,10:00 am,1:00 pm,Shift Status,Van Asset
+Caboolture,Caboolture,QLD,23 Hayes Street,-27.08121,152.955972,Saturday,4:00 pm,6:00 pm,Shift Status,Van Asset
+Dalby Laundromat,Dalby,QLD,143 Cunningham Street,-27.183287,151.264239,Saturday,10:00 am,12:00 pm,Shift Status,Van Asset
+Dalby Laundromat,Dalby,QLD,143 Cunningham Street,-27.183287,151.264239,Wednesday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Kings Kitchen,Redcliffe,QLD,189 Redcliffe Parade,-27.224447,153.114328,Monday,4:00 pm,6:30 pm,Shift Status,Van Asset
+Breakfast Club,Clontarf,QLD,34 Cornelius Street,-27.254838,153.085019,Thursday,1:00 pm,3:30 pm,Shift Status,Van Asset
+Breakfast Club,Clontarf,QLD,34 Cornelius Street,-27.254838,153.085019,Tuesday,9:00 am,12:00 pm,Shift Status,Van Asset
+Bright Suds Laundromat,Bray Park,QLD,4/245 Francis Road,-27.284678,152.959265,Monday,9:00 am,11:00 am,Shift Status,Van Asset
+Bright Suds Laundromat,Bray Park,QLD,4/245 Francis Road,-27.284678,152.959265,Wednesday,6:00 pm,8:00 pm,Shift Status,Van Asset
+Orange Sky HQ Laundromat,Stafford,QLD,1/32 Billabong Street,-27.416926,153.017997,Friday,10:00 am,3:00 pm,Shift Status,Van Asset
+Orange Sky HQ Laundromat,Stafford,QLD,1/32 Billabong Street,-27.416926,153.017997,Thursday,10:00 am,3:00 pm,Shift Status,Van Asset
+Orange Sky HQ Laundromat,Stafford,QLD,1/32 Billabong Street,-27.416926,153.017997,Wednesday,10:00 am,3:00 pm,Shift Status,Van Asset
+Orange Sky HQ Laundromat,Stafford,QLD,1/32 Billabong Street,-27.416926,153.017997,Tuesday,10:00 am,3:00 pm,Shift Status,Van Asset
+Orange Sky HQ Laundromat,Stafford,QLD,1/32 Billabong Street,-27.416926,153.017997,Monday,10:00 am,3:00 pm,Shift Status,Van Asset
+Wynnum Community Centre,Wynnum,QLD,55 Berrima Street,-27.441012,153.172002,Tuesday,9:00 am,11:00 am,Shift Status,Van Asset
+Rosies Wynnum,Wynnum,QLD,83 Tingal Road,-27.446966,153.173067,Friday,7:00 pm,9:00 pm,Shift Status,Van Asset
+Jeays Street with Drug Arm,Bowen Hills,QLD,12 Jeays Street,-27.448434,153.036131,Friday,10:00 am,12:00 pm,Shift Status,Van Asset
+Valley Hearts,Fortitude Valley,QLD,141 Brookes Street,-27.454119,153.038289,Monday,4:30 pm,6:30 pm,Shift Status,Van Asset
+Valley Hearts,Fortitude Valley,QLD,278 Barry Parade,-27.456568,153.031325,Thursday,9:30 am,12:00 pm,Shift Status,Van Asset
+Ivory St,Brisbane City,QLD,Ivory Street,-27.460128,153.035214,Saturday,3:00 pm,5:00 pm,Shift Status,Van Asset
+Walk With Us,Burleigh Heads,QLD,2 Burleigh Street,-28.089046,153.44875,Tuesday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Burleigh Heads,Burleigh Heads,QLD,Park Avenue,-28.090527,153.452275,Thursday,7:00 pm,9:00 pm,Shift Status,Van Asset
+Beached at Burleigh,Burleigh Heads,QLD,174 West Burleigh Road,-28.100289,153.4433,Friday,8:30 am,10:30 am,Shift Status,Van Asset
+Uniting Care Services,Bilinga,QLD,93 Golden Four Drive,-28.164021,153.517306,Tuesday,9:00 am,12:00 pm,Shift Status,Van Asset
+Brunz Brekkie,Brunswick Heads,NSW,50 Mullumbimbi Street,-28.539386,153.5486,Friday,8:00 am,11:30 am,Shift Status,Van Asset
+Mullumbimby Hub,Mullumbimby,NSW,55 Dalley Street,-28.551962,153.499532,Monday,9:00 am,12:00 pm,Shift Status,Van Asset
+Mullumbimby Hub,Mullumbimby,NSW,55 Dalley Street,-28.551962,153.499532,Wednesday,10:00 am,2:00 pm,Shift Status,Van Asset
+The Winsome and Lismore Soup Kitchen,North Lismore,NSW,"Winsome Hotel, 11 Bridge Street",-28.805056,153.276105,Thursday,8:30 am,12:30 pm,Shift Status,Van Asset
+The Winsome and Lismore Soup Kitchen,North Lismore,NSW,"Winsome Hotel, 11 Bridge Street",-28.805056,153.276105,Tuesday,8:30 am,12:30 pm,Shift Status,Van Asset
+Social Futures,Ballina,NSW,103 River Street,-28.870406,153.561179,Monday,1:30 pm,4:00 pm,Shift Status,Van Asset
+Wardell CORE,Wardell,NSW,3 Sinclair Street,-28.952564,153.465453,Saturday,8:30 am,12:30 pm,Shift Status,Van Asset
+Kalgoorlie Ningamia,Parkeston,WA,"Ningamia Community, 51 Nhalpa Drive",-30.73158,121.492032,Monday,8:00 am,3:00 pm,Shift Status,Van Asset
+Sobering Up Centre,Kalgoorlie,WA,8 MacDonald Street,-30.746374,121.477199,Wednesday,8:00 am,3:00 pm,Shift Status,Van Asset
+Kalgoorlie Pod (Mon - Fri),Kalgoorlie,WA,150 Hay Street,-30.750394,121.466906,Friday,8:00 am,1:00 pm,Shift Status,Van Asset
+Kalgoorlie Pod (Mon - Fri),Kalgoorlie,WA,150 Hay Street,-30.750394,121.466906,Thursday,8:00 am,1:00 pm,Shift Status,Van Asset
+Kalgoorlie Pod (Mon - Fri),Kalgoorlie,WA,150 Hay Street,-30.750394,121.466906,Tuesday,8:00 am,1:00 pm,Shift Status,Van Asset
+Kalgoorlie Pod (Mon - Fri),Kalgoorlie,WA,150 Hay Street,-30.750394,121.466906,Monday,8:00 am,1:00 pm,Shift Status,Van Asset
+Boulder Camp,Kalgoorlie,WA,Hay Street,-30.753531,121.46367,Tuesday,8:00 am,3:00 pm,Shift Status,Van Asset
+Boulder Camp,South Boulder,WA,355 Goldfields Highway,-30.79645,121.49486,Friday,8:00 am,3:00 pm,Shift Status,Van Asset
+Kempsey Neighbourhood Centre,Kempsey,NSW,2 Geoffrey Debenham Street,-31.076708,152.843975,Wednesday,11:00 am,1:00 pm,Shift Status,Van Asset
+Kempsey Neighbourhood Centre,Kempsey,NSW,2 Geoffrey Debenham Street,-31.076708,152.843975,Monday,10:00 am,2:00 pm,Shift Status,Van Asset
+Port Anglican Soup Kitchen,Port Macquarie,NSW,74 Hay Street,-31.432019,152.910063,Wednesday,10:30 am,12:30 pm,Shift Status,Van Asset
+Camden Haven Community,Kew,NSW,185 Kendall Road,-31.632597,152.722656,Wednesday,3:00 pm,5:00 pm,Shift Status,Van Asset
+Salv Army Balga,Balga,WA,10 Lavant Way,-31.859025,115.834649,Tuesday,8:45 am,10:45 am,Shift Status,Van Asset
+SDA Church Wingham,Wingham,NSW,1 Moon Street,-31.876482,152.365569,Thursday,10:00 am,12:00 pm,Shift Status,Van Asset
+Midland Meals,Midland,WA,Cosmo Lane,-31.887298,116.00287,Saturday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Midland Meals,Midland,WA,Cosmo Lane,-31.887298,116.00287,Sunday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Dreambuilders,Midland,WA,334-336 Great Eastern Highway,-31.889654,115.999568,Thursday,8:30 am,11:00 am,Shift Status,Van Asset
+Manning Uniting Church,Taree,NSW,29-35 Albert Street,-31.910357,152.46101,Friday,10:00 am,12:00 pm,Shift Status,Van Asset
+Ruah Community Centre Engagement Hub,Northbridge,WA,247 James Street,-31.946398,115.852985,Monday,9:00 am,11:00 am,Shift Status,Van Asset
+The Third Place,Subiaco,WA,325 Barker Road,-31.949038,115.82331,Wednesday,12:00 pm,2:00 pm,Shift Status,Van Asset
+Tranby Hub Indoor Laundry,Perth,WA,unit 6/5 Aberdeen Street,-31.950867,115.867059,Monday,9:00 am,12:00 pm,Shift Status,Van Asset
+Tranby Hub Indoor Laundry,Perth,WA,unit 6/5 Aberdeen Street,-31.950867,115.867059,Saturday,8:00 am,11:00 am,Shift Status,Van Asset
+Tranby Hub Indoor Laundry,Perth,WA,unit 6/5 Aberdeen Street,-31.950867,115.867059,Sunday,12:30 pm,3:30 pm,Shift Status,Van Asset
+Tranby Hub Indoor Laundry,Perth,WA,unit 6/5 Aberdeen Street,-31.950867,115.867059,Thursday,9:00 am,12:00 pm,Shift Status,Van Asset
+Tranby Hub Indoor Laundry,Perth,WA,unit 6/5 Aberdeen Street,-31.950867,115.867059,Wednesday,9:00 am,12:00 pm,Shift Status,Van Asset
+Moore St Hub,Perth,WA,Moore Street,-31.953039,115.866992,Sunday,8:00 am,11:00 am,Shift Status,Van Asset
+Moore St Hub,Perth,WA,Moore Street,-31.953039,115.866992,Thursday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Moore St Hub,Perth,WA,Moore Street,-31.953039,115.866992,Tuesday,5:30 pm,7:30 pm,Shift Status,Van Asset
+St Marys Outreach Meal,East Victoria Park,WA,248 Gloucester Street,-31.983306,115.898952,Monday,6:00 pm,8:00 pm,Shift Status,Van Asset
+The Haven Centre,East Victoria Park,WA,879 Albany Highway,-31.98608,115.903708,Saturday,9:00 am,11:00 am,Shift Status,Van Asset
+The Shopfront,Bentley,WA,59 John Street,-31.997243,115.924454,Tuesday,11:30 am,1:30 pm,Shift Status,Van Asset
+Cannington Community Garden,Cannington,WA,142 Wharf Street,-32.013106,115.935926,Friday,5:00 pm,7:00 pm,Shift Status,Van Asset
+St Pats,Fremantle,WA,12 Queen Victoria Street,-32.049181,115.750029,Friday,7:30 am,10:30 am,Shift Status,Van Asset
+St Pats,Fremantle,WA,12 Queen Victoria Street,-32.049181,115.750029,Wednesday,7:30 am,10:30 am,Shift Status,Van Asset
+Beach St Hub,Fremantle,WA,1 Beach Street,-32.04924,115.74907,Saturday,7:00 am,9:00 am,Shift Status,Van Asset
+Beach St Hub,Fremantle,WA,1 Beach Street,-32.04924,115.74907,Sunday,8:00 am,10:00 am,Shift Status,Van Asset
+Beach St Hub,Fremantle,WA,1 Beach Street,-32.04924,115.74907,Saturday,5:00 pm,7:00 pm,Shift Status,Van Asset
+Beach St Hub,Fremantle,WA,1 Beach Street,-32.04924,115.74907,Tuesday,6:30 pm,8:30 pm,Shift Status,Van Asset
+Real Life Church,Gosnells,WA,2209 Albany Highway,-32.071049,116.00056,Wednesday,8:30 am,11:30 am,Shift Status,Van Asset
+Homelessness We Care Perth SJS,Byford,WA,858 South Western Highway,-32.220713,116.009431,Friday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Spearwood Uniting Church,Rockingham,WA,330 Rockingham Road,-32.281957,115.75773,Wednesday,6:00 pm,8:00 pm,Shift Status,Van Asset
+Salv Army Rockingham,Rockingham,WA,Read Street,-32.288629,115.74018,Tuesday,9:30 am,12:00 pm,Shift Status,Van Asset
+St Brendans At Guide Hall,Shoalwater,WA,Watts Road,-32.301985,115.709677,Friday,10:00 am,1:00 pm,Shift Status,Van Asset
+Passion Church with Peel Connect,Mandurah,WA,unit 3/11 Davey Street,-32.533999,115.72391,Thursday,8:30 am,11:30 am,Shift Status,Van Asset
+Raymond Terrace Salvation Army,Raymond Terrace,NSW,15 Carmichael Street,-32.759245,151.74784,Tuesday,1:30 pm,3:30 pm,Shift Status,Van Asset
+BaptistCare Hope St,Wallsend,NSW,58 Cowper Street,-32.902086,151.671224,Tuesday,9:00 am,11:00 am,Shift Status,Van Asset
+Salvation Army Hamilton,Hamilton,NSW,67 Cleary Street,-32.920877,151.746196,Friday,10:00 am,12:00 pm,Shift Status,Van Asset
+Salvation Army Hamilton,Hamilton,NSW,67 Cleary Street,-32.920877,151.746196,Monday,12:00 pm,2:00 pm,Shift Status,Van Asset
+St Marks Community Kitchen,Wollongong,NSW,429 Crown Street,-34.42692,150.879232,Monday,2:30 pm,4:30 pm,Shift Status,Van Asset
+Lighthouse Church,Wollongong,NSW,1 Railway Station Square,-34.427638,150.88732,Thursday,4:30 pm,6:30 pm,Shift Status,Van Asset
+Lighthouse Church,Wollongong,NSW,1 Railway Station Square,-34.427638,150.88732,Tuesday,4:30 pm,6:30 pm,Shift Status,Van Asset
+Baptist Care Hope Street,Port Kembla,NSW,27-29 Wentworth Street,-34.480194,150.900485,Friday,9:30 am,11:30 am,Shift Status,Van Asset
+Baptist Care Hope Street,Port Kembla,NSW,27-29 Wentworth Street,-34.480194,150.900485,Wednesday,9:30 am,11:30 am,Shift Status,Van Asset
+Open Hands Community Kitchen,Lake Illawarra,NSW,10 Commerce Drive,-34.54763,150.864979,Friday,1:00 pm,3:00 pm,Shift Status,Van Asset
+Open Hands Community Kitchen,Lake Illawarra,NSW,10 Commerce Drive,-34.54763,150.864979,Monday,11:00 am,2:00 pm,Shift Status,Van Asset
+Freds Van Elizabeth,Elizabeth,SA,8 Langford Drive,-34.71879,138.664249,Sunday,10:00 am,1:00 pm,Shift Status,Van Asset
+Freds Van Elizabeth,Elizabeth,SA,8 Langford Drive,-34.71879,138.664249,Wednesday,5:00 pm,7:00 pm,Shift Status,Van Asset
+Salvation Army TTG,Modbury,SA,138-142 Reservoir Road,-34.828653,138.687183,Wednesday,1:00 pm,3:00 pm,Shift Status,Van Asset
+Puddle Jumpers,Hindmarsh,SA,266 Port Road,-34.90418,138.569332,Friday,6:00 pm,8:00 pm,Shift Status,Van Asset
+Adelaide North,North Adelaide,SA,80a Melbourne Street,-34.906295,138.608362,Monday,2:00 pm,4:00 pm,Shift Status,Van Asset
+Adelaide North,North Adelaide,SA,80a Melbourne Street,-34.906295,138.608362,Thursday,9:30 am,11:30 am,Shift Status,Van Asset
+Hopes Cafe,Beulah Park,SA,243 The Parade,-34.920795,138.64213,Wednesday,9:30 am,12:00 pm,Shift Status,Van Asset
+Vinnies Men's Crisis Centre,Adelaide,SA,28 Whitmore Square,-34.93256,138.595318,Monday,10:00 am,12:00 pm,Shift Status,Van Asset
+Vinnies Men's Crisis Centre,Adelaide,SA,28 Whitmore Square,-34.93256,138.595318,Saturday,9:00 am,12:00 pm,Shift Status,Van Asset
+Vinnies Men's Crisis Centre,Adelaide,SA,28 Whitmore Square,-34.93256,138.595318,Thursday,9:30 am,12:30 pm,Shift Status,Van Asset
+Community Aid & Marys Kitchen,Glenelg,SA,92 Jetty Road,-34.980475,138.51489,Friday,10:30 am,12:30 pm,Shift Status,Van Asset
+Community Aid & Marys Kitchen,Glenelg,SA,92 Jetty Road,-34.980475,138.51489,Tuesday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Berry St Splash Laundrette,Wagga Wagga,NSW,68 Berry Street,-35.11261,147.372722,Wednesday,1:00 pm,3:00 pm,Shift Status,Van Asset
+Turvey Park Splash Laundrette,Mount Austin,NSW,66 Fernleigh Road,-35.133443,147.357512,Thursday,1:00 pm,3:00 pm,Shift Status,Van Asset
+Kooringal Splash Laundrette,Kooringal,NSW,293 Lake Albert Road,-35.141456,147.376068,Tuesday,1:00 pm,3:00 pm,Shift Status,Van Asset
+Communities at Work,Gungahlin,NSW,"Community Care, 47 Ernest Cavanagh Street",-35.183881,149.135086,Tuesday,1:00 pm,3:00 pm,Shift Status,Van Asset
+Canberra City Care,Charnwood,NSW,20 Cartwright Street,-35.202582,149.030415,Thursday,12:00 pm,2:00 pm,Shift Status,Van Asset
+Holy Cross Tuckerbox,Hackett,NSW,202 Antill Street,-35.247876,149.155254,Saturday,1:00 pm,3:00 pm,Shift Status,Van Asset
+Dickson Place,Dickson,NSW,111 Dickson Place,-35.249301,149.139887,Monday,6:30 pm,8:30 pm,Shift Status,Van Asset
+Havelock House,Turner,NSW,85 Northbourne Avenue,-35.273628,149.129299,Wednesday,2:00 pm,4:00 pm,Shift Status,Van Asset
+Blue Door Pod,Campbell,NSW,23 Quick Street,-35.274807,149.148947,Friday,11:00 am,1:00 pm,Shift Status,Van Asset
+Blue Door Pod,Campbell,NSW,23 Quick Street,-35.274807,149.148947,Tuesday,9:30 am,11:30 am,Shift Status,Van Asset
+Early Morning Centre,Braddon,NSW,69 Northbourne Avenue,-35.276574,149.129042,Monday,9:00 am,11:00 am,Shift Status,Van Asset
+Kanangra Court,Reid,NSW,84 Ainslie Avenue,-35.277062,149.142866,Tuesday,9:30 am,11:30 am,Shift Status,Van Asset
+Vinnies Roadhouse,Canberra,NSW,20 Genge Street,-35.277088,149.132611,Saturday,4:00 pm,6:00 pm,Shift Status,Van Asset
+Vision Church Community Meal,Fyshwick,NSW,1 Lithgow Street,-35.330694,149.163028,Thursday,4:30 pm,6:30 pm,Shift Status,Van Asset
+Vinnies Oaks,Oaks Estate,NSW,20 George Street,-35.339844,149.22983,Monday,12:30 pm,2:30 pm,Shift Status,Van Asset
+HOME in Queanbeyan,Queanbeyan,NSW,284 Crawford Street,-35.35537,149.236114,Sunday,10:00 am,12:30 pm,Shift Status,Van Asset
+St Benedicts at Annies,Karabar,NSW,21 Brigalow Street,-35.364007,149.228135,Wednesday,9:30 am,12:00 pm,Shift Status,Van Asset
+Family Haven Mooroopna,Mooroopna,VIC,15 Young Street,-36.396639,145.360115,Monday,10:00 am,12:00 pm,Shift Status,Van Asset
+Family Haven Mooroopna,Mooroopna,VIC,15 Young Street,-36.396639,145.360115,Thursday,10:00 am,1:00 pm,Shift Status,Van Asset
+Family Haven Mooroopna,Mooroopna,VIC,15 Young Street,-36.396639,145.360115,Tuesday,10:00 am,1:00 pm,Shift Status,Van Asset
+The Salvation Army Bendigo,Bendigo,VIC,65-71 Mundy Street,-36.760957,144.28717,Monday,12:30 pm,2:30 pm,Shift Status,Van Asset
+The Salvation Army Bendigo,Bendigo,VIC,65-71 Mundy Street,-36.760957,144.28717,Thursday,10:30 am,1:00 pm,Shift Status,Van Asset
+Sac O Suds,Castlemaine,VIC,231 Barker Street,-37.06349,144.216944,Thursday,1:00 pm,3:00 pm,Shift Status,Van Asset
+The Salvation Army Ballarat,Ballarat East,VIC,102 Eureka Street,-37.567179,143.869098,Friday,11:00 am,1:00 pm,Shift Status,Van Asset
+The Salvation Army Ballarat,Ballarat East,VIC,102 Eureka Street,-37.567179,143.869098,Wednesday,10:30 am,1:30 pm,Shift Status,Van Asset
+Hope Cafe,Fawkner,VIC,9 Lee Street,-37.71612,144.963656,Thursday,5:30 pm,7:30 pm,Shift Status,Van Asset
+Reservoir Neighbourhood House,Reservoir,VIC,2C Cuthbert Road,-37.717075,145.019695,Monday,10:00 am,1:00 pm,Shift Status,Van Asset
+Haven Home Safe,Preston,VIC,52-56 Mary Street,-37.741412,145.002279,Thursday,11:00 am,1:00 pm,Shift Status,Van Asset
+The Olive Way,Brunswick,VIC,212 Sydney Road,-37.77263,144.961381,Wednesday,11:30 am,1:30 pm,Shift Status,Van Asset
+300 Blankets Braybrook,Braybrook,VIC,107-139 Churchill Avenue,-37.78633,144.85481,Sunday,6:20 pm,8:20 pm,Shift Status,Van Asset
+St Stephens,Flemington,VIC,26 Norwood Street,-37.787171,144.930982,Tuesday,10:00 am,12:30 pm,Shift Status,Van Asset
+Manna 4 Life,Kensington,VIC,30-34 Bellair Street,-37.789448,144.928623,Tuesday,6:15 pm,8:15 pm,Shift Status,Van Asset
+St Marks,Fitzroy,VIC,250 George Street,-37.801858,144.981707,Monday,11:00 am,1:00 pm,Shift Status,Van Asset
+St Marks,Fitzroy,VIC,250 George Street,-37.801858,144.981707,Wednesday,11:00 am,1:00 pm,Shift Status,Van Asset
+North Hobart Uniting Church,North Hobart,TAS,2 Swan Street,-42.872725,147.314291,Wednesday,9:30 am,11:30 am,Shift Status,Van Asset
+Salv Army North Hobart,Hobart,TAS,180 Elizabeth Street,-42.879173,147.321756,Sunday,3:30 pm,5:30 pm,Shift Status,Van Asset
+Nobucks Cafe Uniting Church,Hobart,TAS,56 Melville Street,-42.880864,147.324283,Tuesday,11:30 am,1:30 pm,Shift Status,Van Asset
+Hobart Mission Day Space,Hobart,TAS,50 Barrack Street,-42.885274,147.32176,Saturday,10:00 am,1:00 pm,Shift Status,Van Asset
+Hobart Mission Day Space,Hobart,TAS,50 Barrack Street,-42.885274,147.32176,Sunday,10:00 am,1:00 pm,Shift Status,Van Asset
+Repatriation General Hospital,Hobart,TAS,90 Davey Street,-42.888185,147.326893,Monday,12:30 pm,2:30 pm,Shift Status,Van Asset

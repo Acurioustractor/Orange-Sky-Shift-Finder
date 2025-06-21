@@ -1,0 +1,3226 @@
+[
+         {
+                lat: -11.761922,  // These should be excluded by the view already.
+                lng: 130.631800, // These should be excluded by the view already.
+                url: "wurrumiyanga",
+                post_id: "44343,44368,44369,44370,44371",
+                name: "Wurrumiyanga",
+                description: "",
+                city: "Wurrumiyanga",
+                postcode: "0822",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.055167,  // These should be excluded by the view already.
+                lng: 134.231380, // These should be excluded by the view already.
+                url: "maningrida_bottom_camp",
+                post_id: "38834,38835,38836,38837,38838,38839,38840,38841,38842,38843",
+                name: "Maningrida Bottom Camp",
+                description: "",
+                city: "Maningrida",
+                postcode: "0822",
+                street: "Bottom Camp",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.183539,  // These should be excluded by the view already.
+                lng: 136.786099, // These should be excluded by the view already.
+                url: "garma_womens_healing_space",
+                post_id: "38773",
+                name: "Garma Womens Healing Space",
+                description: "",
+                city: "Nhulunbuy",
+                postcode: "0880",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.388738,  // These should be excluded by the view already.
+                lng: 130.854149, // These should be excluded by the view already.
+                url: "litchfield_court",
+                post_id: "47379",
+                name: "Litchfield Court",
+                description: "",
+                city: "Coconut Grove",
+                postcode: "0810",
+                street: "unit 76/15 Progress Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.431786,  // These should be excluded by the view already.
+                lng: 130.843749, // These should be excluded by the view already.
+                url: "darwin_christian_church",
+                post_id: "38759",
+                name: "Darwin Christian Church",
+                description: "",
+                city: "Parap",
+                postcode: "0820",
+                street: "36 Parap Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.445574,  // These should be excluded by the view already.
+                lng: 130.831155, // These should be excluded by the view already.
+                url: "arts_in_the_grass",
+                post_id: "38756",
+                name: "Arts in the Grass",
+                description: "Mindil Beach Public Toilet",
+                city: "The Gardens",
+                postcode: "0820",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.479292,  // These should be excluded by the view already.
+                lng: 130.984536, // These should be excluded by the view already.
+                url: "palmerston_rec_centre",
+                post_id: "38758",
+                name: "Palmerston Rec Centre",
+                description: "",
+                city: "Palmerston City",
+                postcode: "0830",
+                street: "11 The Boulevard",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.503485,  // These should be excluded by the view already.
+                lng: 135.805370, // These should be excluded by the view already.
+                url: "gapuwiyak",
+                post_id: "38768,38769,38770,38771,38772",
+                name: "Gapuwiyak",
+                description: "",
+                city: "Gapuwiyak",
+                postcode: "0880",
+                street: "Gapuwiyaklake Evella Cpa, 9 Bambinamirri Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -12.786055,  // These should be excluded by the view already.
+                lng: 143.341866, // These should be excluded by the view already.
+                url: "lockhart_river",
+                post_id: "38823",
+                name: "Lockhart River",
+                description: "",
+                city: "Lockhart River",
+                postcode: "",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -13.355805,  // These should be excluded by the view already.
+                lng: 141.723548, // These should be excluded by the view already.
+                url: "aurukun_|_fridays_|_8am_-_4pm",
+                post_id: "38663,47607,47609,47610,47615",
+                name: "Aurukun | Fridays | 8am - 4pm",
+                description: "",
+                city: "Aurukun",
+                postcode: "4892",
+                street: "428 Kor Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -14.237414,  // These should be excluded by the view already.
+                lng: 129.518786, // These should be excluded by the view already.
+                url: "wadeye",
+                post_id: "39060,39061,39062,39063,39064,39065,39066,39067,39068,39069",
+                name: "Wadeye",
+                description: "",
+                city: "Wadeye",
+                postcode: "0822",
+                street: "Kanarlda Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -14.352393,  // These should be excluded by the view already.
+                lng: 129.882250, // These should be excluded by the view already.
+                url: "nganmarriyanga_pod",
+                post_id: "38901,38902,38903,38904,38905",
+                name: "Nganmarriyanga Pod",
+                description: "",
+                city: "Nganmarriyanga",
+                postcode: "0822",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -16.665093,  // These should be excluded by the view already.
+                lng: 139.179393, // These should be excluded by the view already.
+                url: "mornington_island",
+                post_id: "41481,41482,41483,41484,41485",
+                name: "Mornington Island",
+                description: "",
+                city: "Wellesley Islands",
+                postcode: "4892",
+                street: "Lardil Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -16.856660,  // These should be excluded by the view already.
+                lng: 145.745246, // These should be excluded by the view already.
+                url: "machans_beach",
+                post_id: "43859",
+                name: "Machans Beach",
+                description: "",
+                city: "Machans Beach",
+                postcode: "4878",
+                street: "Christensen Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -16.907592,  // These should be excluded by the view already.
+                lng: 145.867268, // These should be excluded by the view already.
+                url: "gurriny_yealamucka_health_service",
+                post_id: "46970",
+                name: "Gurriny Yealamucka Health Service",
+                description: "",
+                city: "Yarrabah",
+                postcode: "4871",
+                street: "177 Workshop Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -16.915038,  // These should be excluded by the view already.
+                lng: 145.746903, // These should be excluded by the view already.
+                url: "st_vinnies_manunda",
+                post_id: "38726",
+                name: "St Vinnies Manunda",
+                description: "",
+                city: "Manunda",
+                postcode: "4870",
+                street: "82 Anderson Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -16.916905,  // These should be excluded by the view already.
+                lng: 145.745400, // These should be excluded by the view already.
+                url: "centacare",
+                post_id: "38724",
+                name: "Centacare",
+                description: "",
+                city: "Manunda",
+                postcode: "4870",
+                street: "212 McCormack Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -16.921249,  // These should be excluded by the view already.
+                lng: 145.741267, // These should be excluded by the view already.
+                url: "cairns_villas",
+                post_id: "38725",
+                name: "Cairns Villas",
+                description: "",
+                city: "Manoora",
+                postcode: "4870",
+                street: "28 Pease Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -16.927381,  // These should be excluded by the view already.
+                lng: 145.765017, // These should be excluded by the view already.
+                url: "rosies_and_wow",
+                post_id: "38727",
+                name: "Rosies and WOW",
+                description: "",
+                city: "Parramatta Park",
+                postcode: "4870",
+                street: "251-269 Severin Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.305451,  // These should be excluded by the view already.
+                lng: 123.641005, // These should be excluded by the view already.
+                url: "",
+                post_id: "47169",
+                name: "",
+                description: "",
+                city: "Derby",
+                postcode: "6728",
+                street: "Karmulinunga Community,  Panton Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.317877,  // These should be excluded by the view already.
+                lng: 123.635665, // These should be excluded by the view already.
+                url: "",
+                post_id: "47170",
+                name: "",
+                description: "",
+                city: "Derby",
+                postcode: "6728",
+                street: "117 Rowan Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.356705,  // These should be excluded by the view already.
+                lng: 123.698676, // These should be excluded by the view already.
+                url: "",
+                post_id: "47168",
+                name: "",
+                description: "",
+                city: "Derby",
+                postcode: "6728",
+                street: "Mowanjum Community,",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.736137,  // These should be excluded by the view already.
+                lng: 123.658508, // These should be excluded by the view already.
+                url: "",
+                post_id: "47166",
+                name: "",
+                description: "",
+                city: "Willare",
+                postcode: "6728",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.941837,  // These should be excluded by the view already.
+                lng: 138.826066, // These should be excluded by the view already.
+                url: "doomadgee",
+                post_id: "38762,38763,38764,38765,38766",
+                name: "Doomadgee",
+                description: "",
+                city: "Doomadgee",
+                postcode: "4830",
+                street: "275 Sharpe Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.957374,  // These should be excluded by the view already.
+                lng: 122.241423, // These should be excluded by the view already.
+                url: "broome_men_s_outreach_centre",
+                post_id: "45066",
+                name: "Broome Men's Outreach Centre",
+                description: "",
+                city: "Broome",
+                postcode: "6725",
+                street: "11 Hamersley Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.959537,  // These should be excluded by the view already.
+                lng: 122.237827, // These should be excluded by the view already.
+                url: "broome_centacare",
+                post_id: "45065",
+                name: "Broome Centacare",
+                description: "",
+                city: "Broome",
+                postcode: "6725",
+                street: "23 Robinson Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -17.959890,  // These should be excluded by the view already.
+                lng: 122.237839, // These should be excluded by the view already.
+                url: "broome_centacare",
+                post_id: "45067",
+                name: "Broome Centacare",
+                description: "",
+                city: "Broome",
+                postcode: "6725",
+                street: "23 Robinson Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.039802,  // These should be excluded by the view already.
+                lng: 124.149380, // These should be excluded by the view already.
+                url: "",
+                post_id: "47167",
+                name: "",
+                description: "",
+                city: "Camballin",
+                postcode: "6728",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.268474,  // These should be excluded by the view already.
+                lng: 146.025158, // These should be excluded by the view already.
+                url: "caldwell_community_hall",
+                post_id: "43778,43766,43773",
+                name: "Caldwell Community Hall",
+                description: "",
+                city: "Cardwell",
+                postcode: "4849",
+                street: "Brasenose Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.684795,  // These should be excluded by the view already.
+                lng: 121.779834, // These should be excluded by the view already.
+                url: "bidyadanga",
+                post_id: "40797,40799,40808,40809",
+                name: "Bidyadanga",
+                description: "The Orange Sky trailer is beside the Bidyadanga Resource Centre",
+                city: "Lagrange",
+                postcode: "6725",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.718980,  // These should be excluded by the view already.
+                lng: 146.596549, // These should be excluded by the view already.
+                url: "palm_island_rodeo_ground",
+                post_id: "41839",
+                name: "Palm Island Rodeo Ground",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "Sunset Rd",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.722424,  // These should be excluded by the view already.
+                lng: 146.589592, // These should be excluded by the view already.
+                url: "palm_island_-_kitchener_bligh",
+                post_id: "38926,38927",
+                name: "Palm Island - Kitchener Bligh",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "Wilson Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.722731,  // These should be excluded by the view already.
+                lng: 146.583550, // These should be excluded by the view already.
+                url: "palm_island_the_farm",
+                post_id: "38929",
+                name: "Palm Island The Farm",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "Murray Lane",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.730942,  // These should be excluded by the view already.
+                lng: 146.579514, // These should be excluded by the view already.
+                url: "palm_island_dee_st",
+                post_id: "38925",
+                name: "Palm Island Dee St",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "Dee Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.734826,  // These should be excluded by the view already.
+                lng: 146.581025, // These should be excluded by the view already.
+                url: "palm_island_top_end_stanley_lane",
+                post_id: "38931",
+                name: "Palm Island Top End Stanley Lane",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "Stanley Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.736729,  // These should be excluded by the view already.
+                lng: 146.582083, // These should be excluded by the view already.
+                url: "palm_island_top_end",
+                post_id: "38930",
+                name: "Palm Island Top End",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "Luma Luma Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.741762,  // These should be excluded by the view already.
+                lng: 146.578927, // These should be excluded by the view already.
+                url: "palm_island_reservoir_ridge",
+                post_id: "38932",
+                name: "Palm Island Reservoir Ridge",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "1 Kalkadoon Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -18.749582,  // These should be excluded by the view already.
+                lng: 146.579380, // These should be excluded by the view already.
+                url: "palm_island_butler_bay",
+                post_id: "38922,38923",
+                name: "Palm Island Butler Bay",
+                description: "",
+                city: "Palm Island",
+                postcode: "4816",
+                street: "Butler Bay Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -19.245617,  // These should be excluded by the view already.
+                lng: 146.809986, // These should be excluded by the view already.
+                url: "police_beat",
+                post_id: "39058",
+                name: "Police Beat",
+                description: "",
+                city: "North Ward",
+                postcode: "4810",
+                street: "54 Stuart Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -19.256110,  // These should be excluded by the view already.
+                lng: 146.785304, // These should be excluded by the view already.
+                url: "garbutt_community_centre",
+                post_id: "39056",
+                name: "Garbutt Community Centre",
+                description: "",
+                city: "Garbutt",
+                postcode: "4814",
+                street: "4 Hugh Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -19.263247,  // These should be excluded by the view already.
+                lng: 146.791765, // These should be excluded by the view already.
+                url: "townsville_food_pantry",
+                post_id: "39059",
+                name: "Townsville Food Pantry",
+                description: "",
+                city: "West End",
+                postcode: "4810",
+                street: "127 Francis Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -19.294585,  // These should be excluded by the view already.
+                lng: 146.794057, // These should be excluded by the view already.
+                url: "taihs_camp_st",
+                post_id: "39057",
+                name: "TAIHS Camp St",
+                description: "",
+                city: "Mundingburra",
+                postcode: "4812",
+                street: "14-16 Camp Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -19.334194,  // These should be excluded by the view already.
+                lng: 146.715168, // These should be excluded by the view already.
+                url: "salvation_army_riverway",
+                post_id: "39055",
+                name: "Salvation Army Riverway",
+                description: "",
+                city: "Condon",
+                postcode: "4815",
+                street: "49-61 North Beck Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -19.364491,  // These should be excluded by the view already.
+                lng: 146.727054, // These should be excluded by the view already.
+                url: "upper_ross_community_centre",
+                post_id: "40892",
+                name: "Upper Ross Community Centre",
+                description: "",
+                city: "Rasmussen",
+                postcode: "4815",
+                street: "43 Allambie Lane",
+                image: "https://s3.ap-southeast-2.amazonaws.com/storage.rosterfy.co/misc/O1uE/O1uEOBLqiwDdo9MpmYmtqzJMlsJd4QNAsMJPJgzX.png",
+                notifications: "",
+            }
+            ,         {
+                lat: -20.279807,  // These should be excluded by the view already.
+                lng: 148.697410, // These should be excluded by the view already.
+                url: "whitsundays_neighbourhood_centre",
+                post_id: "44339,44393",
+                name: "Whitsundays Neighbourhood Centre",
+                description: "",
+                city: "Cannonvale",
+                postcode: "4802",
+                street: "14-20 Hazelwood Crescent",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -20.715622,  // These should be excluded by the view already.
+                lng: 139.507729, // These should be excluded by the view already.
+                url: "ngukutharti",
+                post_id: "38890",
+                name: "Ngukutharti",
+                description: "",
+                city: "Pioneer",
+                postcode: "4825",
+                street: "70 Short Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -20.718268,  // These should be excluded by the view already.
+                lng: 139.510135, // These should be excluded by the view already.
+                url: "gardner_st_park",
+                post_id: "41360",
+                name: "Gardner St Park",
+                description: "",
+                city: "Pioneer",
+                postcode: "4825",
+                street: "15 Gardner Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -20.731269,  // These should be excluded by the view already.
+                lng: 139.491519, // These should be excluded by the view already.
+                url: "ragoss_dinner_camp",
+                post_id: "38887,38889",
+                name: "RAGOSS Dinner Camp",
+                description: "",
+                city: "Mornington",
+                postcode: "4825",
+                street: "4 Burke Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -20.746524,  // These should be excluded by the view already.
+                lng: 139.495311, // These should be excluded by the view already.
+                url: "yallambee_aboriginal_reserve",
+                post_id: "38883",
+                name: "Yallambee Aboriginal Reserve",
+                description: "",
+                city: "Healy",
+                postcode: "4825",
+                street: "Duchess Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -21.149917,  // These should be excluded by the view already.
+                lng: 149.185698, // These should be excluded by the view already.
+                url: "girl_guides",
+                post_id: "46713,46714,46715,46716,46717,46718,46720,46721",
+                name: "Girl Guides",
+                description: "",
+                city: "South Mackay",
+                postcode: "4740",
+                street: "Sydney Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -21.421376,  // These should be excluded by the view already.
+                lng: 149.216527, // These should be excluded by the view already.
+                url: "sarina_neighbourhood_centre",
+                post_id: "38832,38833",
+                name: "Sarina Neighbourhood Centre",
+                description: "",
+                city: "Sarina",
+                postcode: "4737",
+                street: "65 Broad Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -22.253957,  // These should be excluded by the view already.
+                lng: 131.795388, // These should be excluded by the view already.
+                url: "yuendumu",
+                post_id: "39082,39083,39084,39085,39086",
+                name: "Yuendumu",
+                description: "",
+                city: "Yuendumu",
+                postcode: "0872",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -23.356703,  // These should be excluded by the view already.
+                lng: 150.516821, // These should be excluded by the view already.
+                url: "salvation_army",
+                post_id: "38961,38962",
+                name: "Salvation Army",
+                description: "",
+                city: "North Rockhampton",
+                postcode: "4701",
+                street: "131-137 Park Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -23.698042,  // These should be excluded by the view already.
+                lng: 133.880747, // These should be excluded by the view already.
+                url: "alice_springs",
+                post_id: "41138,41142,41144,41145,41147",
+                name: "Alice Springs",
+                description: "",
+                city: "Alice Springs",
+                postcode: "0870",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -23.870521,  // These should be excluded by the view already.
+                lng: 151.251513, // These should be excluded by the view already.
+                url: "philip_st_precinct_salvation_army",
+                post_id: "38781,38782",
+                name: "Philip St Precinct Salvation Army",
+                description: "",
+                city: "West Gladstone",
+                postcode: "4680",
+                street: "1 Pengelly Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -24.868624,  // These should be excluded by the view already.
+                lng: 152.352437, // These should be excluded by the view already.
+                url: "angels_mini_mart",
+                post_id: "38720,38721,38722,38723",
+                name: "Angels Mini Mart",
+                description: "",
+                city: "Bundaberg Central",
+                postcode: "4670",
+                street: "66 Targo Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.528588,  // These should be excluded by the view already.
+                lng: 153.088364, // These should be excluded by the view already.
+                url: "the_food_pantry",
+                post_id: "38971",
+                name: "The Food Pantry",
+                description: "",
+                city: "Coolum Beach",
+                postcode: "4573",
+                street: "22 Elizabeth Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.624578,  // These should be excluded by the view already.
+                lng: 152.957991, // These should be excluded by the view already.
+                url: "the_shack",
+                post_id: "38979",
+                name: "The Shack",
+                description: "",
+                city: "Nambour",
+                postcode: "4560",
+                street: "19 Price Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.627801,  // These should be excluded by the view already.
+                lng: 152.960728, // These should be excluded by the view already.
+                url: "daily_bread",
+                post_id: "38977,38978",
+                name: "Daily Bread",
+                description: "",
+                city: "Nambour",
+                postcode: "4560",
+                street: "10 Sydney Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.651784,  // These should be excluded by the view already.
+                lng: 153.088162, // These should be excluded by the view already.
+                url: "stella_maris",
+                post_id: "38976",
+                name: "Stella Maris",
+                description: "",
+                city: "Maroochydore",
+                postcode: "4558",
+                street: "41 Baden Powell Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.657035,  // These should be excluded by the view already.
+                lng: 153.100901, // These should be excluded by the view already.
+                url: "maroochy_centre",
+                post_id: "38974,38975",
+                name: "Maroochy Centre",
+                description: "",
+                city: "Maroochydore",
+                postcode: "4558",
+                street: "2 Fifth Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.759383,  // These should be excluded by the view already.
+                lng: 152.849843, // These should be excluded by the view already.
+                url: "maleny_neighbourhood_centre",
+                post_id: "38972,38973,47358",
+                name: "Maleny Neighbourhood Centre",
+                description: "",
+                city: "Maleny",
+                postcode: "4552",
+                street: "17 Bicentenary Lane",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.794494,  // These should be excluded by the view already.
+                lng: 153.130668, // These should be excluded by the view already.
+                url: "caloundra_community_centre",
+                post_id: "38967",
+                name: "Caloundra Community Centre",
+                description: "",
+                city: "Caloundra",
+                postcode: "4551",
+                street: "58A Queen Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -26.804138,  // These should be excluded by the view already.
+                lng: 153.134313, // These should be excluded by the view already.
+                url: "salvos_house_4_hope",
+                post_id: "38970",
+                name: "Salvos House 4 Hope",
+                description: "",
+                city: "Caloundra",
+                postcode: "4551",
+                street: "4 Ormuz Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.081210,  // These should be excluded by the view already.
+                lng: 152.955972, // These should be excluded by the view already.
+                url: "caboolture",
+                post_id: "38677",
+                name: "Caboolture",
+                description: "",
+                city: "Caboolture",
+                postcode: "4510",
+                street: "23 Hayes Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.183287,  // These should be excluded by the view already.
+                lng: 151.264239, // These should be excluded by the view already.
+                url: "dalby_laundromat",
+                post_id: "38754,38755",
+                name: "Dalby Laundromat",
+                description: "",
+                city: "Dalby",
+                postcode: "4405",
+                street: "143 Cunningham Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.224447,  // These should be excluded by the view already.
+                lng: 153.114328, // These should be excluded by the view already.
+                url: "kings_kitchen",
+                post_id: "38698",
+                name: "Kings Kitchen",
+                description: "",
+                city: "Redcliffe",
+                postcode: "4020",
+                street: "189 Redcliffe Parade",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.254838,  // These should be excluded by the view already.
+                lng: 153.085019, // These should be excluded by the view already.
+                url: "breakfast_club",
+                post_id: "38679,38680",
+                name: "Breakfast Club",
+                description: "",
+                city: "Clontarf",
+                postcode: "4019",
+                street: "34 Cornelius Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.284678,  // These should be excluded by the view already.
+                lng: 152.959265, // These should be excluded by the view already.
+                url: "bright_suds_laundromat",
+                post_id: "43050,43062",
+                name: "Bright Suds Laundromat",
+                description: "",
+                city: "Bray Park",
+                postcode: "4500",
+                street: "4/245 Francis Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.416926,  // These should be excluded by the view already.
+                lng: 153.017997, // These should be excluded by the view already.
+                url: "orange_sky_hq_laundromat",
+                post_id: "38669",
+                name: "Orange Sky HQ Laundromat",
+                description: "",
+                city: "Stafford",
+                postcode: "4053",
+                street: "1/32 Billabong Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.441012,  // These should be excluded by the view already.
+                lng: 153.172002, // These should be excluded by the view already.
+                url: "wynnum_community_centre",
+                post_id: "44195",
+                name: "Wynnum Community Centre",
+                description: "",
+                city: "Wynnum",
+                postcode: "4178",
+                street: "55 Berrima Street",
+                image: "https://s3.ap-southeast-2.amazonaws.com/storage.rosterfy.co/misc/pEGQ/pEGQHLKk7gOh5Qlk9C4VHBYYYzcLbNST4h2vKKaa.png",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.446966,  // These should be excluded by the view already.
+                lng: 153.173067, // These should be excluded by the view already.
+                url: "rosies_wynnum",
+                post_id: "38716",
+                name: "Rosies Wynnum",
+                description: "",
+                city: "Wynnum",
+                postcode: "4178",
+                street: "83 Tingal Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.448434,  // These should be excluded by the view already.
+                lng: 153.036131, // These should be excluded by the view already.
+                url: "jeays_street_with_drug_arm",
+                post_id: "41838",
+                name: "Jeays Street with Drug Arm",
+                description: "",
+                city: "Bowen Hills",
+                postcode: "4006",
+                street: "12 Jeays Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.454119,  // These should be excluded by the view already.
+                lng: 153.038289, // These should be excluded by the view already.
+                url: "valley_hearts",
+                post_id: "38674",
+                name: "Valley Hearts",
+                description: "",
+                city: "Fortitude Valley",
+                postcode: "4006",
+                street: "141 Brookes Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.456568,  // These should be excluded by the view already.
+                lng: 153.031325, // These should be excluded by the view already.
+                url: "valley_hearts",
+                post_id: "38676",
+                name: "Valley Hearts",
+                description: "",
+                city: "Fortitude Valley",
+                postcode: "4006",
+                street: "278 Barry Parade",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.460128,  // These should be excluded by the view already.
+                lng: 153.035214, // These should be excluded by the view already.
+                url: "ivory_st",
+                post_id: "38684,38685",
+                name: "Ivory St",
+                description: "Corner of Harrison Lane and Ivory Street, next to the Fortitude Valley Dog Park entrance",
+                city: "Brisbane City",
+                postcode: "4000",
+                street: "Ivory Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.464546,  // These should be excluded by the view already.
+                lng: 153.021508, // These should be excluded by the view already.
+                url: "wickham_park",
+                post_id: "38704,38705,38706,38707",
+                name: "Wickham Park",
+                description: "",
+                city: "Spring Hill",
+                postcode: "4000",
+                street: "309 Wickham Terrace",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.468420,  // These should be excluded by the view already.
+                lng: 153.080067, // These should be excluded by the view already.
+                url: "ymca_community_centre",
+                post_id: "38678",
+                name: "YMCA Community Centre",
+                description: "",
+                city: "Cannon Hill",
+                postcode: "4170",
+                street: "18 Lang Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.477378,  // These should be excluded by the view already.
+                lng: 153.016784, // These should be excluded by the view already.
+                url: "musgrave_park",
+                post_id: "38699,38700,38703",
+                name: "Musgrave Park",
+                description: "",
+                city: "South Brisbane",
+                postcode: "4101",
+                street: "26A Cordelia Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.478827,  // These should be excluded by the view already.
+                lng: 153.017404, // These should be excluded by the view already.
+                url: "signal_flare",
+                post_id: "47286",
+                name: "Signal Flare",
+                description: "",
+                city: "South Brisbane",
+                postcode: "4101",
+                street: "91 Cordelia Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.480867,  // These should be excluded by the view already.
+                lng: 153.011323, // These should be excluded by the view already.
+                url: "community_friends_bunyapa_park",
+                post_id: "38713",
+                name: "Community Friends Bunyapa Park",
+                description: "",
+                city: "West End",
+                postcode: "4101",
+                street: "39 Thomas St & Vulture Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.517071,  // These should be excluded by the view already.
+                lng: 153.020359, // These should be excluded by the view already.
+                url: "yeronga_community_centre",
+                post_id: "45325",
+                name: "Yeronga Community Centre",
+                description: "",
+                city: "Yeronga",
+                postcode: "4104",
+                street: "62 Park Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.552951,  // These should be excluded by the view already.
+                lng: 151.920298, // These should be excluded by the view already.
+                url: "wyalla_coinwash_laundromat",
+                post_id: "39053,39054",
+                name: "Wyalla Coinwash Laundromat",
+                description: "",
+                city: "Newtown",
+                postcode: "4350",
+                street: "238 Taylor Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.597544,  // These should be excluded by the view already.
+                lng: 152.976168, // These should be excluded by the view already.
+                url: "inala_family_support_centre",
+                post_id: "38687",
+                name: "Inala Family Support Centre",
+                description: "",
+                city: "Inala",
+                postcode: "4077",
+                street: "5 Lupin Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.613293,  // These should be excluded by the view already.
+                lng: 153.128500, // These should be excluded by the view already.
+                url: "logan_east_community_neighbourhood_association",
+                post_id: "45526",
+                name: "Logan East Community Neighbourhood Association",
+                description: "",
+                city: "Springwood",
+                postcode: "4127",
+                street: "55 Cinderella Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.617954,  // These should be excluded by the view already.
+                lng: 152.768100, // These should be excluded by the view already.
+                url: "ipswich_hub",
+                post_id: "38690",
+                name: "Ipswich Hub",
+                description: "",
+                city: "Ipswich",
+                postcode: "4305",
+                street: "10 Merle Finimore Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.640379,  // These should be excluded by the view already.
+                lng: 153.106984, // These should be excluded by the view already.
+                url: "wembley_plaza",
+                post_id: "38694",
+                name: "Wembley Plaza",
+                description: "",
+                city: "Logan Central",
+                postcode: "4114",
+                street: "2 Ewing Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.706355,  // These should be excluded by the view already.
+                lng: 153.211722, // These should be excluded by the view already.
+                url: "eagleby_neighbourhood_centre",
+                post_id: "47269,47275",
+                name: "Eagleby Neighbourhood Centre",
+                description: "",
+                city: "Eagleby",
+                postcode: "4207",
+                street: "94/112 Fryar Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.717162,  // These should be excluded by the view already.
+                lng: 153.200958, // These should be excluded by the view already.
+                url: "beenleigh_neighbourhood_centre",
+                post_id: "45486",
+                name: "Beenleigh Neighbourhood Centre",
+                description: "",
+                city: "Beenleigh",
+                postcode: "4207",
+                street: "10-12 James Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.717682,  // These should be excluded by the view already.
+                lng: 153.206282, // These should be excluded by the view already.
+                url: "nightlight_outreach_hy",
+                post_id: "38673",
+                name: "Nightlight Outreach HY",
+                description: "",
+                city: "Beenleigh",
+                postcode: "4207",
+                street: "114-118 George Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.717959,  // These should be excluded by the view already.
+                lng: 153.203485, // These should be excluded by the view already.
+                url: "bob_jane_beenleigh",
+                post_id: "42373",
+                name: "Bob Jane Beenleigh",
+                description: "",
+                city: "Beenleigh",
+                postcode: "4207",
+                street: "43 Main Street",
+                image: "https://s3.ap-southeast-2.amazonaws.com/storage.rosterfy.co/misc/QnwV/QnwVstDQGDUQmMtKvRkQbJeaOX9AXGYBLZ3RPrui.png",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.954660,  // These should be excluded by the view already.
+                lng: 153.409580, // These should be excluded by the view already.
+                url: "loders_creek_boat_ramp",
+                post_id: "46929",
+                name: "Loders Creek Boat Ramp",
+                description: "",
+                city: "Labrador",
+                postcode: "4215",
+                street: "174 Marine Parade",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.963470,  // These should be excluded by the view already.
+                lng: 153.407237, // These should be excluded by the view already.
+                url: "baden_powell_park",
+                post_id: "46933",
+                name: "Baden Powell Park",
+                description: "",
+                city: "Southport",
+                postcode: "4215",
+                street: "13 Smith Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.966479,  // These should be excluded by the view already.
+                lng: 153.410910, // These should be excluded by the view already.
+                url: "set_free_pod",
+                post_id: "38790,38792,38793,38794",
+                name: "Set Free Pod",
+                description: "Set Free Care - Community Hub",
+                city: "Southport",
+                postcode: "4215",
+                street: "21 Rawlins Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -27.970760,  // These should be excluded by the view already.
+                lng: 153.414102, // These should be excluded by the view already.
+                url: "angels_kitchen",
+                post_id: "38791",
+                name: "Angels Kitchen",
+                description: "",
+                city: "Southport",
+                postcode: "4215",
+                street: "6 Lawson Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.006883,  // These should be excluded by the view already.
+                lng: 153.428520, // These should be excluded by the view already.
+                url: "st_johns_crisis_centre",
+                post_id: "38795,38796",
+                name: "St Johns Crisis Centre",
+                description: "",
+                city: "Surfers Paradise",
+                postcode: "4217",
+                street: "36 Hamilton Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.046023,  // These should be excluded by the view already.
+                lng: 153.435986, // These should be excluded by the view already.
+                url: "havafeed",
+                post_id: "38788,38789",
+                name: "Havafeed",
+                description: "",
+                city: "Mermaid Beach",
+                postcode: "4218",
+                street: "2439 Gold Coast Highway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.089046,  // These should be excluded by the view already.
+                lng: 153.448750, // These should be excluded by the view already.
+                url: "walk_with_us",
+                post_id: "38786",
+                name: "Walk With Us",
+                description: "Burleigh Heads Uniting Church",
+                city: "Burleigh Heads",
+                postcode: "4220",
+                street: "2 Burleigh Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.090527,  // These should be excluded by the view already.
+                lng: 153.452275, // These should be excluded by the view already.
+                url: "burleigh_heads",
+                post_id: "38785",
+                name: "Burleigh Heads",
+                description: "Outside Burleigh Heads Library",
+                city: "Burleigh Heads",
+                postcode: "4220",
+                street: "Park Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.100289,  // These should be excluded by the view already.
+                lng: 153.443300, // These should be excluded by the view already.
+                url: "beached_at_burleigh",
+                post_id: "38784",
+                name: "Beached at Burleigh",
+                description: "",
+                city: "Burleigh Heads",
+                postcode: "4220",
+                street: "174 West Burleigh Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.164021,  // These should be excluded by the view already.
+                lng: 153.517306, // These should be excluded by the view already.
+                url: "uniting_care_services",
+                post_id: "38783",
+                name: "Uniting Care Services",
+                description: "",
+                city: "Bilinga",
+                postcode: "4225",
+                street: "93 Golden Four Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.539386,  // These should be excluded by the view already.
+                lng: 153.548600, // These should be excluded by the view already.
+                url: "brunz_brekkie",
+                post_id: "38907",
+                name: "Brunz Brekkie",
+                description: "",
+                city: "Brunswick Heads",
+                postcode: "2483",
+                street: "50 Mullumbimbi Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.551962,  // These should be excluded by the view already.
+                lng: 153.499532, // These should be excluded by the view already.
+                url: "mullumbimby_hub",
+                post_id: "38910,38911",
+                name: "Mullumbimby Hub",
+                description: "",
+                city: "Mullumbimby",
+                postcode: "2482",
+                street: "55 Dalley Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.805056,  // These should be excluded by the view already.
+                lng: 153.276105, // These should be excluded by the view already.
+                url: "the_winsome_and_lismore_soup_kitchen",
+                post_id: "38908,38909",
+                name: "The Winsome and Lismore Soup Kitchen",
+                description: "",
+                city: "North Lismore",
+                postcode: "2480",
+                street: "Winsome Hotel, 11 Bridge Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.870406,  // These should be excluded by the view already.
+                lng: 153.561179, // These should be excluded by the view already.
+                url: "social_futures",
+                post_id: "47378",
+                name: "Social Futures",
+                description: "",
+                city: "Ballina",
+                postcode: "2478",
+                street: "103 River Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -28.952564,  // These should be excluded by the view already.
+                lng: 153.465453, // These should be excluded by the view already.
+                url: "wardell_core",
+                post_id: "38912",
+                name: "Wardell CORE",
+                description: "",
+                city: "Wardell",
+                postcode: "2477",
+                street: "3 Sinclair Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -30.731580,  // These should be excluded by the view already.
+                lng: 121.492032, // These should be excluded by the view already.
+                url: "kalgoorlie_ningamia",
+                post_id: "38807",
+                name: "Kalgoorlie Ningamia",
+                description: "",
+                city: "Parkeston",
+                postcode: "6434",
+                street: "Ningamia Community, 51 Nhalpa Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -30.746374,  // These should be excluded by the view already.
+                lng: 121.477199, // These should be excluded by the view already.
+                url: "sobering_up_centre",
+                post_id: "38809",
+                name: "Sobering Up Centre",
+                description: "",
+                city: "Kalgoorlie",
+                postcode: "6430",
+                street: "8 MacDonald Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -30.750394,  // These should be excluded by the view already.
+                lng: 121.466906, // These should be excluded by the view already.
+                url: "kalgoorlie_pod_mon_-_fri_",
+                post_id: "44650",
+                name: "Kalgoorlie Pod (Mon - Fri)",
+                description: "The Orange Sky pod is located in the Kalgoorlie Church of Christ outreach centre",
+                city: "Kalgoorlie",
+                postcode: "6430",
+                street: "150 Hay Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -30.753531,  // These should be excluded by the view already.
+                lng: 121.463670, // These should be excluded by the view already.
+                url: "boulder_camp",
+                post_id: "38808",
+                name: "Boulder Camp",
+                description: "",
+                city: "Kalgoorlie",
+                postcode: "6430",
+                street: "Hay Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -30.796450,  // These should be excluded by the view already.
+                lng: 121.494860, // These should be excluded by the view already.
+                url: "boulder_camp",
+                post_id: "38806",
+                name: "Boulder Camp",
+                description: "",
+                city: "South Boulder",
+                postcode: "6432",
+                street: "355 Goldfields Highway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.076708,  // These should be excluded by the view already.
+                lng: 152.843975, // These should be excluded by the view already.
+                url: "kempsey_neighbourhood_centre",
+                post_id: "38876,38877",
+                name: "Kempsey Neighbourhood Centre",
+                description: "",
+                city: "Kempsey",
+                postcode: "2440",
+                street: "2 Geoffrey Debenham Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.432019,  // These should be excluded by the view already.
+                lng: 152.910063, // These should be excluded by the view already.
+                url: "port_anglican_soup_kitchen",
+                post_id: "38879",
+                name: "Port Anglican Soup Kitchen",
+                description: "",
+                city: "Port Macquarie",
+                postcode: "2444",
+                street: "74 Hay Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.632597,  // These should be excluded by the view already.
+                lng: 152.722656, // These should be excluded by the view already.
+                url: "camden_haven_community",
+                post_id: "38878",
+                name: "Camden Haven Community",
+                description: "",
+                city: "Kew",
+                postcode: "2439",
+                street: "185 Kendall Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.859025,  // These should be excluded by the view already.
+                lng: 115.834649, // These should be excluded by the view already.
+                url: "salv_army_balga",
+                post_id: "38933",
+                name: "Salv Army Balga",
+                description: "",
+                city: "Balga",
+                postcode: "6061",
+                street: "10 Lavant Way",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.876482,  // These should be excluded by the view already.
+                lng: 152.365569, // These should be excluded by the view already.
+                url: "sda_church_wingham",
+                post_id: "38881",
+                name: "SDA Church Wingham",
+                description: "",
+                city: "Wingham",
+                postcode: "2429",
+                street: "1 Moon Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.887298,  // These should be excluded by the view already.
+                lng: 116.002870, // These should be excluded by the view already.
+                url: "midland_meals",
+                post_id: "38953,38954",
+                name: "Midland Meals",
+                description: "",
+                city: "Midland",
+                postcode: "6056",
+                street: "Cosmo Lane",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.889654,  // These should be excluded by the view already.
+                lng: 115.999568, // These should be excluded by the view already.
+                url: "dreambuilders",
+                post_id: "38952",
+                name: "Dreambuilders",
+                description: "",
+                city: "Midland",
+                postcode: "6056",
+                street: "334-336 Great Eastern Highway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.910357,  // These should be excluded by the view already.
+                lng: 152.461010, // These should be excluded by the view already.
+                url: "manning_uniting_church",
+                post_id: "38880",
+                name: "Manning Uniting Church",
+                description: "",
+                city: "Taree",
+                postcode: "2430",
+                street: "29-35 Albert Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.946398,  // These should be excluded by the view already.
+                lng: 115.852985, // These should be excluded by the view already.
+                url: "ruah_community_centre_engagement_hub",
+                post_id: "40994",
+                name: "Ruah Community Centre Engagement Hub",
+                description: "",
+                city: "Northbridge",
+                postcode: "6003",
+                street: "247 James Street",
+                image: "https://s3.ap-southeast-2.amazonaws.com/storage.rosterfy.co/misc/viwi/viwi9pFSbe5rMFOoN4ijrRNH8JsWIwe1NIpzl39O.png",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.949038,  // These should be excluded by the view already.
+                lng: 115.823310, // These should be excluded by the view already.
+                url: "the_third_place",
+                post_id: "43330",
+                name: "The Third Place",
+                description: "",
+                city: "Subiaco",
+                postcode: "6008",
+                street: "325 Barker Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.950867,  // These should be excluded by the view already.
+                lng: 115.867059, // These should be excluded by the view already.
+                url: "tranby_hub_indoor_laundry",
+                post_id: "38938,38939,38940,38941,38942",
+                name: "Tranby Hub Indoor Laundry",
+                description: "",
+                city: "Perth",
+                postcode: "6000",
+                street: "unit 6/5 Aberdeen Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.953039,  // These should be excluded by the view already.
+                lng: 115.866992, // These should be excluded by the view already.
+                url: "moore_st_hub",
+                post_id: "38955,38956,38957",
+                name: "Moore St Hub",
+                description: "",
+                city: "Perth",
+                postcode: "6000",
+                street: "Moore Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.983306,  // These should be excluded by the view already.
+                lng: 115.898952, // These should be excluded by the view already.
+                url: "st_marys_outreach_meal",
+                post_id: "38943",
+                name: "St Marys Outreach Meal",
+                description: "",
+                city: "East Victoria Park",
+                postcode: "6101",
+                street: "248 Gloucester Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.986080,  // These should be excluded by the view already.
+                lng: 115.903708, // These should be excluded by the view already.
+                url: "the_haven_centre",
+                post_id: "38944",
+                name: "The Haven Centre",
+                description: "",
+                city: "East Victoria Park",
+                postcode: "6101",
+                street: "879 Albany Highway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.989373,  // These should be excluded by the view already.
+                lng: 116.010693, // These should be excluded by the view already.
+                url: "st_martins",
+                post_id: "45424",
+                name: "St Martins",
+                description: "57 Hale Rd, Forrestfield WA 6058",
+                city: "Forrestfield",
+                postcode: "6058",
+                street: "57 Hale Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -31.997243,  // These should be excluded by the view already.
+                lng: 115.924454, // These should be excluded by the view already.
+                url: "the_shopfront",
+                post_id: "38934",
+                name: "The Shopfront",
+                description: "",
+                city: "Bentley",
+                postcode: "6102",
+                street: "59 John Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.013106,  // These should be excluded by the view already.
+                lng: 115.935926, // These should be excluded by the view already.
+                url: "cannington_community_garden",
+                post_id: "38936",
+                name: "Cannington Community Garden",
+                description: "",
+                city: "Cannington",
+                postcode: "6107",
+                street: "142 Wharf Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.049181,  // These should be excluded by the view already.
+                lng: 115.750029, // These should be excluded by the view already.
+                url: "st_pats",
+                post_id: "41662,40671",
+                name: "St Pats",
+                description: "",
+                city: "Fremantle",
+                postcode: "6160",
+                street: "12 Queen Victoria Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.049240,  // These should be excluded by the view already.
+                lng: 115.749070, // These should be excluded by the view already.
+                url: "beach_st_hub",
+                post_id: "38945,38946,38947,38948",
+                name: "Beach St Hub",
+                description: "",
+                city: "Fremantle",
+                postcode: "6160",
+                street: "1 Beach Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.071049,  // These should be excluded by the view already.
+                lng: 116.000560, // These should be excluded by the view already.
+                url: "real_life_church",
+                post_id: "38950",
+                name: "Real Life Church",
+                description: "",
+                city: "Gosnells",
+                postcode: "6110",
+                street: "2209 Albany Highway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.220713,  // These should be excluded by the view already.
+                lng: 116.009431, // These should be excluded by the view already.
+                url: "homelessness_we_care_perth_sjs",
+                post_id: "38935",
+                name: "Homelessness We Care Perth SJS",
+                description: "",
+                city: "Byford",
+                postcode: "6122",
+                street: "858 South Western Highway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.281957,  // These should be excluded by the view already.
+                lng: 115.757730, // These should be excluded by the view already.
+                url: "spearwood_uniting_church",
+                post_id: "40573",
+                name: "Spearwood Uniting Church",
+                description: "",
+                city: "Rockingham",
+                postcode: "6168",
+                street: "330 Rockingham Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.288629,  // These should be excluded by the view already.
+                lng: 115.740180, // These should be excluded by the view already.
+                url: "salv_army_rockingham",
+                post_id: "38937",
+                name: "Salv Army Rockingham",
+                description: "",
+                city: "Rockingham",
+                postcode: "6168",
+                street: "Read Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.301985,  // These should be excluded by the view already.
+                lng: 115.709677, // These should be excluded by the view already.
+                url: "st_brendans_at_guide_hall",
+                post_id: "38958",
+                name: "St Brendans At Guide Hall",
+                description: "",
+                city: "Shoalwater",
+                postcode: "6169",
+                street: "Watts Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.533999,  // These should be excluded by the view already.
+                lng: 115.723910, // These should be excluded by the view already.
+                url: "passion_church_with_peel_connect",
+                post_id: "38951",
+                name: "Passion Church with Peel Connect",
+                description: "",
+                city: "Mandurah",
+                postcode: "6210",
+                street: "unit 3/11 Davey Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.754843,  // These should be excluded by the view already.
+                lng: 151.759273, // These should be excluded by the view already.
+                url: "pop_up_raymond_terrace_community_church",
+                post_id: "42943",
+                name: "POP UP Raymond Terrace Community Church",
+                description: "",
+                city: "Raymond Terrace",
+                postcode: "2324",
+                street: "10 Richardson Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.759245,  // These should be excluded by the view already.
+                lng: 151.747840, // These should be excluded by the view already.
+                url: "raymond_terrace_salvation_army",
+                post_id: "38899",
+                name: "Raymond Terrace Salvation Army",
+                description: "",
+                city: "Raymond Terrace",
+                postcode: "2324",
+                street: "15 Carmichael Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.902086,  // These should be excluded by the view already.
+                lng: 151.671224, // These should be excluded by the view already.
+                url: "baptistcare_hope_st",
+                post_id: "44161",
+                name: "BaptistCare Hope St",
+                description: "",
+                city: "Wallsend",
+                postcode: "2287",
+                street: "58 Cowper Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.920877,  // These should be excluded by the view already.
+                lng: 151.746196, // These should be excluded by the view already.
+                url: "salvation_army_hamilton",
+                post_id: "38895,38896",
+                name: "Salvation Army Hamilton",
+                description: "",
+                city: "Hamilton",
+                postcode: "2303",
+                street: "67 Cleary Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.929723,  // These should be excluded by the view already.
+                lng: 151.780010, // These should be excluded by the view already.
+                url: "christ_church_cathedral",
+                post_id: "38898",
+                name: "Christ Church Cathedral",
+                description: "",
+                city: "The Hill",
+                postcode: "2300",
+                street: "60 Newcomen Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.935486,  // These should be excluded by the view already.
+                lng: 151.739114, // These should be excluded by the view already.
+                url: "catholic_care_hamilton_south",
+                post_id: "38897",
+                name: "Catholic Care Hamilton South",
+                description: "",
+                city: "Hamilton South",
+                postcode: "2303",
+                street: "29 Fowler Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -32.939758,  // These should be excluded by the view already.
+                lng: 151.653185, // These should be excluded by the view already.
+                url: "hearty_starts_breakfast",
+                post_id: "38894",
+                name: "Hearty Starts Breakfast",
+                description: "",
+                city: "Cardiff",
+                postcode: "2285",
+                street: "57 Pendlebury Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.092027,  // These should be excluded by the view already.
+                lng: 151.637577, // These should be excluded by the view already.
+                url: "swansea_community_cottage",
+                post_id: "38900",
+                name: "Swansea Community Cottage",
+                description: "",
+                city: "Swansea",
+                postcode: "2281",
+                street: "228 Pacific Highway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.254424,  // These should be excluded by the view already.
+                lng: 151.494948, // These should be excluded by the view already.
+                url: "coast_hands",
+                post_id: "38746",
+                name: "Coast Hands",
+                description: "",
+                city: "Gorokan",
+                postcode: "2263",
+                street: "90 Minnamurra Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.262836,  // These should be excluded by the view already.
+                lng: 151.541259, // These should be excluded by the view already.
+                url: "toukley_uniting_church",
+                post_id: "38750",
+                name: "Toukley Uniting Church",
+                description: "",
+                city: "Toukley",
+                postcode: "2263",
+                street: "7 Summerside Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.284527,  // These should be excluded by the view already.
+                lng: 151.423093, // These should be excluded by the view already.
+                url: "wyong_nc",
+                post_id: "38753",
+                name: "Wyong NC",
+                description: "",
+                city: "Wyong",
+                postcode: "2259",
+                street: "8 Rankens Court",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.337560,  // These should be excluded by the view already.
+                lng: 151.495220, // These should be excluded by the view already.
+                url: "faith_in_action",
+                post_id: "38749",
+                name: "Faith in Action",
+                description: "",
+                city: "The Entrance",
+                postcode: "2261",
+                street: "1 Tuggerah Parade",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.338944,  // These should be excluded by the view already.
+                lng: 115.642977, // These should be excluded by the view already.
+                url: "doors_wide_open",
+                post_id: "38718,38719",
+                name: "Doors Wide Open",
+                description: "",
+                city: "South Bunbury",
+                postcode: "6230",
+                street: "42 Forrest Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.426635,  // These should be excluded by the view already.
+                lng: 151.342583, // These should be excluded by the view already.
+                url: "cocos",
+                post_id: "38748",
+                name: "COCOS",
+                description: "",
+                city: "Gosford",
+                postcode: "2250",
+                street: "1 Mortimer Lane",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.488997,  // These should be excluded by the view already.
+                lng: 151.326358, // These should be excluded by the view already.
+                url: "mary_macs",
+                post_id: "38751",
+                name: "Mary Macs",
+                description: "",
+                city: "Woy Woy",
+                postcode: "2256",
+                street: "100 Blackwall Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.772022,  // These should be excluded by the view already.
+                lng: 150.904794, // These should be excluded by the view already.
+                url: "one_meal_alpha_park",
+                post_id: "38983",
+                name: "One Meal Alpha Park",
+                description: "",
+                city: "Blacktown",
+                postcode: "2148",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.810156,  // These should be excluded by the view already.
+                lng: 151.004020, // These should be excluded by the view already.
+                url: "street_side_medics_parramatta",
+                post_id: "38993",
+                name: "Street Side Medics Parramatta",
+                description: "",
+                city: "Parramatta",
+                postcode: "2150",
+                street: "353 Church Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.862600,  // These should be excluded by the view already.
+                lng: 151.210360, // These should be excluded by the view already.
+                url: "early_bird_cafe",
+                post_id: "39002",
+                name: "Early Bird Cafe",
+                description: "",
+                city: "Haymarket",
+                postcode: "2000",
+                street: "Macquarie Place",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.872371,  // These should be excluded by the view already.
+                lng: 151.219203, // These should be excluded by the view already.
+                url: "baptist_care_hope_st",
+                post_id: "39004",
+                name: "Baptist Care Hope St",
+                description: "",
+                city: "Woolloomooloo",
+                postcode: "2011",
+                street: "45A Charles Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.872563,  // These should be excluded by the view already.
+                lng: 151.214917, // These should be excluded by the view already.
+                url: "yurong_parkway",
+                post_id: "39005,39006",
+                name: "Yurong Parkway",
+                description: "",
+                city: "Sydney",
+                postcode: "2000",
+                street: "Yurong Parkway",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.873694,  // These should be excluded by the view already.
+                lng: 151.227491, // These should be excluded by the view already.
+                url: "st_canices_kitchen",
+                post_id: "38994,38995,40949",
+                name: "St Canices Kitchen",
+                description: "",
+                city: "Rushcutters Bay",
+                postcode: "2011",
+                street: "38a Roslyn Gardens",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.873834,  // These should be excluded by the view already.
+                lng: 151.206522, // These should be excluded by the view already.
+                url: "st_andrews_breakfast_club",
+                post_id: "38999",
+                name: "St Andrews Breakfast Club",
+                description: "",
+                city: "Sydney",
+                postcode: "2000",
+                street: "1400 George Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.877617,  // These should be excluded by the view already.
+                lng: 151.193473, // These should be excluded by the view already.
+                url: "wentworth_park",
+                post_id: "38986,38987",
+                name: "Wentworth Park",
+                description: "",
+                city: "Ultimo",
+                postcode: "2007",
+                street: "Wentworth Park",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.879514,  // These should be excluded by the view already.
+                lng: 151.204952, // These should be excluded by the view already.
+                url: "belmore_park",
+                post_id: "39000",
+                name: "Belmore Park",
+                description: "",
+                city: "Haymarket",
+                postcode: "2000",
+                street: "Hay Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.888446,  // These should be excluded by the view already.
+                lng: 151.206303, // These should be excluded by the view already.
+                url: "prince_alfred_park_surry_hills",
+                post_id: "38996",
+                name: "Prince Alfred Park Surry Hills",
+                description: "",
+                city: "Surry Hills",
+                postcode: "2010",
+                street: "Chalmers Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.888828,  // These should be excluded by the view already.
+                lng: 151.210367, // These should be excluded by the view already.
+                url: "street_side_medics_surry_hills",
+                post_id: "38998",
+                name: "Street Side Medics Surry Hills",
+                description: "",
+                city: "Surry Hills",
+                postcode: "2010",
+                street: "40 Belvoir Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.890338,  // These should be excluded by the view already.
+                lng: 151.127223, // These should be excluded by the view already.
+                url: "rev_bill_crews_foundation",
+                post_id: "38981,38982",
+                name: "Rev Bill Crews Foundation",
+                description: "",
+                city: "Ashfield",
+                postcode: "2131",
+                street: "180 Liverpool Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.895673,  // These should be excluded by the view already.
+                lng: 151.200041, // These should be excluded by the view already.
+                url: "salvos_streetlevel",
+                post_id: "44893",
+                name: "Salvos Streetlevel",
+                description: "",
+                city: "Waterloo",
+                postcode: "2017",
+                street: "",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.897303,  // These should be excluded by the view already.
+                lng: 151.178477, // These should be excluded by the view already.
+                url: "newtown_neighbourhood_centre",
+                post_id: "38991",
+                name: "Newtown Neighbourhood Centre",
+                description: "",
+                city: "Newtown",
+                postcode: "2042",
+                street: "1 Bedford Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.898618,  // These should be excluded by the view already.
+                lng: 151.200894, // These should be excluded by the view already.
+                url: "salvos_streetlevel",
+                post_id: "39003",
+                name: "Salvos Streetlevel",
+                description: "",
+                city: "Waterloo",
+                postcode: "2017",
+                street: "Cope Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.902880,  // These should be excluded by the view already.
+                lng: 151.162278, // These should be excluded by the view already.
+                url: "addi_road_marrickville",
+                post_id: "38990",
+                name: "Addi Road Marrickville",
+                description: "",
+                city: "Marrickville",
+                postcode: "2204",
+                street: "142 Addison Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.905865,  // These should be excluded by the view already.
+                lng: 151.180240, // These should be excluded by the view already.
+                url: "newtown_neighbourhood_centre_darley_st",
+                post_id: "38992",
+                name: "Newtown Neighbourhood Centre Darley St",
+                description: "",
+                city: "Newtown",
+                postcode: "2042",
+                street: "11-13 Darley Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -33.920404,  // These should be excluded by the view already.
+                lng: 150.924377, // These should be excluded by the view already.
+                url: "heaven_on_earth",
+                post_id: "38988",
+                name: "Heaven on Earth",
+                description: "",
+                city: "Liverpool",
+                postcode: "2170",
+                street: "1/51 Macquarie Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.062700,  // These should be excluded by the view already.
+                lng: 150.819549, // These should be excluded by the view already.
+                url: "st_vinnies_nagle_centre",
+                post_id: "38984",
+                name: "St Vinnies Nagle Centre",
+                description: "",
+                city: "Campbelltown",
+                postcode: "2560",
+                street: "22 Iolanthe Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.083735,  // These should be excluded by the view already.
+                lng: 150.828696, // These should be excluded by the view already.
+                url: "we_are_community",
+                post_id: "38980",
+                name: "We Are Community",
+                description: "",
+                city: "Airds",
+                postcode: "2560",
+                street: "42 Riverside Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.424753,  // These should be excluded by the view already.
+                lng: 150.896421, // These should be excluded by the view already.
+                url: "wesley_community_care",
+                post_id: "39081",
+                name: "Wesley Community Care",
+                description: "",
+                city: "Wollongong",
+                postcode: "2500",
+                street: "Court Lane",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.426920,  // These should be excluded by the view already.
+                lng: 150.879232, // These should be excluded by the view already.
+                url: "st_marks_community_kitchen",
+                post_id: "39080",
+                name: "St Marks Community Kitchen",
+                description: "",
+                city: "Wollongong",
+                postcode: "2500",
+                street: "429 Crown Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.427638,  // These should be excluded by the view already.
+                lng: 150.887320, // These should be excluded by the view already.
+                url: "lighthouse_church",
+                post_id: "39078,39079",
+                name: "Lighthouse Church",
+                description: "",
+                city: "Wollongong",
+                postcode: "2500",
+                street: "1 Railway Station Square",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.480194,  // These should be excluded by the view already.
+                lng: 150.900485, // These should be excluded by the view already.
+                url: "baptist_care_hope_street",
+                post_id: "39075,39076",
+                name: "Baptist Care Hope Street",
+                description: "",
+                city: "Port Kembla",
+                postcode: "2505",
+                street: "27-29 Wentworth Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.547630,  // These should be excluded by the view already.
+                lng: 150.864979, // These should be excluded by the view already.
+                url: "open_hands_community_kitchen",
+                post_id: "39073,39074",
+                name: "Open Hands Community Kitchen",
+                description: "",
+                city: "Lake Illawarra",
+                postcode: "2528",
+                street: "10 Commerce Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.718790,  // These should be excluded by the view already.
+                lng: 138.664249, // These should be excluded by the view already.
+                url: "freds_van_elizabeth",
+                post_id: "38654,38655",
+                name: "Freds Van Elizabeth",
+                description: "",
+                city: "Elizabeth",
+                postcode: "5112",
+                street: "8 Langford Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.828653,  // These should be excluded by the view already.
+                lng: 138.687183, // These should be excluded by the view already.
+                url: "salvation_army_ttg",
+                post_id: "40521",
+                name: "Salvation Army TTG",
+                description: "",
+                city: "Modbury",
+                postcode: "5092",
+                street: "138-142 Reservoir Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.904180,  // These should be excluded by the view already.
+                lng: 138.569332, // These should be excluded by the view already.
+                url: "puddle_jumpers",
+                post_id: "38658",
+                name: "Puddle Jumpers",
+                description: "",
+                city: "Hindmarsh",
+                postcode: "5007",
+                street: "266 Port Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.906295,  // These should be excluded by the view already.
+                lng: 138.608362, // These should be excluded by the view already.
+                url: "adelaide_north",
+                post_id: "38659,41063",
+                name: "Adelaide North",
+                description: "",
+                city: "North Adelaide",
+                postcode: "5006",
+                street: "80a Melbourne Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.920795,  // These should be excluded by the view already.
+                lng: 138.642130, // These should be excluded by the view already.
+                url: "hopes_cafe",
+                post_id: "38653",
+                name: "Hopes Cafe",
+                description: "",
+                city: "Beulah Park",
+                postcode: "5067",
+                street: "243 The Parade",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.925572,  // These should be excluded by the view already.
+                lng: 138.610310, // These should be excluded by the view already.
+                url: "salvation_army",
+                post_id: "46303",
+                name: "Salvation Army",
+                description: "",
+                city: "Adelaide",
+                postcode: "5000",
+                street: "277 Pirie Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.932560,  // These should be excluded by the view already.
+                lng: 138.595318, // These should be excluded by the view already.
+                url: "vinnies_men_s_crisis_centre",
+                post_id: "41921,38650,38651,38652",
+                name: "Vinnies Men's Crisis Centre",
+                description: "",
+                city: "Adelaide",
+                postcode: "5000",
+                street: "28 Whitmore Square",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -34.980475,  // These should be excluded by the view already.
+                lng: 138.514890, // These should be excluded by the view already.
+                url: "community_aid_&_marys_kitchen",
+                post_id: "38656,38657",
+                name: "Community Aid & Marys Kitchen",
+                description: "",
+                city: "Glenelg",
+                postcode: "5045",
+                street: "92 Jetty Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.112610,  // These should be excluded by the view already.
+                lng: 147.372722, // These should be excluded by the view already.
+                url: "berry_st_splash_laundrette",
+                post_id: "39070",
+                name: "Berry St Splash Laundrette",
+                description: "",
+                city: "Wagga Wagga",
+                postcode: "2650",
+                street: "68 Berry Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.133443,  // These should be excluded by the view already.
+                lng: 147.357512, // These should be excluded by the view already.
+                url: "turvey_park_splash_laundrette",
+                post_id: "39072",
+                name: "Turvey Park Splash Laundrette",
+                description: "",
+                city: "Mount Austin",
+                postcode: "2650",
+                street: "66 Fernleigh Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.141456,  // These should be excluded by the view already.
+                lng: 147.376068, // These should be excluded by the view already.
+                url: "kooringal_splash_laundrette",
+                post_id: "39071",
+                name: "Kooringal Splash Laundrette",
+                description: "",
+                city: "Kooringal",
+                postcode: "2650",
+                street: "293 Lake Albert Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.183881,  // These should be excluded by the view already.
+                lng: 149.135086, // These should be excluded by the view already.
+                url: "communities_at_work",
+                post_id: "38736",
+                name: "Communities at Work",
+                description: "",
+                city: "Gungahlin",
+                postcode: "2912",
+                street: "Community Care, 47 Ernest Cavanagh Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.202582,  // These should be excluded by the view already.
+                lng: 149.030415, // These should be excluded by the view already.
+                url: "canberra_city_care",
+                post_id: "38733",
+                name: "Canberra City Care",
+                description: "",
+                city: "Charnwood",
+                postcode: "2615",
+                street: "20 Cartwright Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.247876,  // These should be excluded by the view already.
+                lng: 149.155254, // These should be excluded by the view already.
+                url: "holy_cross_tuckerbox",
+                post_id: "38737",
+                name: "Holy Cross Tuckerbox",
+                description: "",
+                city: "Hackett",
+                postcode: "2602",
+                street: "202 Antill Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.249301,  // These should be excluded by the view already.
+                lng: 149.139887, // These should be excluded by the view already.
+                url: "dickson_place",
+                post_id: "38734",
+                name: "Dickson Place",
+                description: "",
+                city: "Dickson",
+                postcode: "2602",
+                street: "111 Dickson Place",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.273628,  // These should be excluded by the view already.
+                lng: 149.129299, // These should be excluded by the view already.
+                url: "havelock_house",
+                post_id: "38744",
+                name: "Havelock House",
+                description: "",
+                city: "Turner",
+                postcode: "2612",
+                street: "85 Northbourne Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.274807,  // These should be excluded by the view already.
+                lng: 149.148947, // These should be excluded by the view already.
+                url: "blue_door_pod",
+                post_id: "38728,38729,46743",
+                name: "Blue Door Pod",
+                description: "",
+                city: "Campbell",
+                postcode: "2612",
+                street: "23 Quick Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.276574,  // These should be excluded by the view already.
+                lng: 149.129042, // These should be excluded by the view already.
+                url: "early_morning_centre",
+                post_id: "38732",
+                name: "Early Morning Centre",
+                description: "",
+                city: "Braddon",
+                postcode: "2612",
+                street: "69 Northbourne Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.276681,  // These should be excluded by the view already.
+                lng: 149.130235, // These should be excluded by the view already.
+                url: "chat_to_pat",
+                post_id: "47242",
+                name: "Chat to PAT",
+                description: "",
+                city: "Canberra",
+                postcode: "2601",
+                street: "68 Northbourne Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.277062,  // These should be excluded by the view already.
+                lng: 149.142866, // These should be excluded by the view already.
+                url: "kanangra_court",
+                post_id: "38742",
+                name: "Kanangra Court",
+                description: "",
+                city: "Reid",
+                postcode: "2612",
+                street: "84 Ainslie Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.277088,  // These should be excluded by the view already.
+                lng: 149.132611, // These should be excluded by the view already.
+                url: "vinnies_roadhouse",
+                post_id: "38730",
+                name: "Vinnies Roadhouse",
+                description: "",
+                city: "Canberra",
+                postcode: "2601",
+                street: "20 Genge Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.330694,  // These should be excluded by the view already.
+                lng: 149.163028, // These should be excluded by the view already.
+                url: "vision_church_community_meal",
+                post_id: "38735",
+                name: "Vision Church Community Meal",
+                description: "",
+                city: "Fyshwick",
+                postcode: "2609",
+                street: "1 Lithgow Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.339844,  // These should be excluded by the view already.
+                lng: 149.229830, // These should be excluded by the view already.
+                url: "vinnies_oaks",
+                post_id: "38739",
+                name: "Vinnies Oaks",
+                description: "",
+                city: "Oaks Estate",
+                postcode: "2620",
+                street: "20 George Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.355370,  // These should be excluded by the view already.
+                lng: 149.236114, // These should be excluded by the view already.
+                url: "home_in_queanbeyan",
+                post_id: "38741",
+                name: "HOME in Queanbeyan",
+                description: "",
+                city: "Queanbeyan",
+                postcode: "2620",
+                street: "284 Crawford Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -35.364007,  // These should be excluded by the view already.
+                lng: 149.228135, // These should be excluded by the view already.
+                url: "st_benedicts_at_annies",
+                post_id: "38738",
+                name: "St Benedicts at Annies",
+                description: "",
+                city: "Karabar",
+                postcode: "2620",
+                street: "21 Brigalow Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -36.396639,  // These should be excluded by the view already.
+                lng: 145.360115, // These should be excluded by the view already.
+                url: "family_haven_mooroopna",
+                post_id: "38963,38964,38965",
+                name: "Family Haven Mooroopna",
+                description: "",
+                city: "Mooroopna",
+                postcode: "3629",
+                street: "15 Young Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -36.760957,  // These should be excluded by the view already.
+                lng: 144.287170, // These should be excluded by the view already.
+                url: "the_salvation_army_bendigo",
+                post_id: "38667,38668",
+                name: "The Salvation Army Bendigo",
+                description: "",
+                city: "Bendigo",
+                postcode: "3550",
+                street: "65-71 Mundy Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.063490,  // These should be excluded by the view already.
+                lng: 144.216944, // These should be excluded by the view already.
+                url: "sac_o_suds",
+                post_id: "38745",
+                name: "Sac O Suds",
+                description: "",
+                city: "Castlemaine",
+                postcode: "3450",
+                street: "231 Barker Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.567179,  // These should be excluded by the view already.
+                lng: 143.869098, // These should be excluded by the view already.
+                url: "the_salvation_army_ballarat",
+                post_id: "38664,38666",
+                name: "The Salvation Army Ballarat",
+                description: "The Salvation Army Ballarat Community Church",
+                city: "Ballarat East",
+                postcode: "3350",
+                street: "102 Eureka Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.716120,  // These should be excluded by the view already.
+                lng: 144.963656, // These should be excluded by the view already.
+                url: "hope_cafe",
+                post_id: "38852",
+                name: "Hope Cafe",
+                description: "St Marks Parish",
+                city: "Fawkner",
+                postcode: "3060",
+                street: "9 Lee Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.717075,  // These should be excluded by the view already.
+                lng: 145.019695, // These should be excluded by the view already.
+                url: "reservoir_neighbourhood_house",
+                post_id: "38866",
+                name: "Reservoir Neighbourhood House",
+                description: "",
+                city: "Reservoir",
+                postcode: "3073",
+                street: "2C Cuthbert Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.738172,  // These should be excluded by the view already.
+                lng: 144.801254, // These should be excluded by the view already.
+                url: "inspire_hope_bbq",
+                post_id: "38869",
+                name: "Inspire Hope BBQ",
+                description: "",
+                city: "Saint Albans",
+                postcode: "3021",
+                street: "95 Alfrieda Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.741412,  // These should be excluded by the view already.
+                lng: 145.002279, // These should be excluded by the view already.
+                url: "haven_home_safe",
+                post_id: "38865",
+                name: "Haven Home Safe",
+                description: "",
+                city: "Preston",
+                postcode: "3072",
+                street: "52-56 Mary Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.772630,  // These should be excluded by the view already.
+                lng: 144.961381, // These should be excluded by the view already.
+                url: "the_olive_way",
+                post_id: "38847",
+                name: "The Olive Way",
+                description: "",
+                city: "Brunswick",
+                postcode: "3056",
+                street: "212 Sydney Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.786330,  // These should be excluded by the view already.
+                lng: 144.854810, // These should be excluded by the view already.
+                url: "300_blankets_braybrook",
+                post_id: "38846",
+                name: "300 Blankets Braybrook",
+                description: "",
+                city: "Braybrook",
+                postcode: "3019",
+                street: "107-139 Churchill Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.787171,  // These should be excluded by the view already.
+                lng: 144.930982, // These should be excluded by the view already.
+                url: "st_stephens",
+                post_id: "38856",
+                name: "St Stephens",
+                description: "",
+                city: "Flemington",
+                postcode: "3031",
+                street: "26 Norwood Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.789448,  // These should be excluded by the view already.
+                lng: 144.928623, // These should be excluded by the view already.
+                url: "manna_4_life",
+                post_id: "44543",
+                name: "Manna 4 Life",
+                description: "",
+                city: "Kensington",
+                postcode: "3031",
+                street: "30-34 Bellair Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.800398,  // These should be excluded by the view already.
+                lng: 144.900268, // These should be excluded by the view already.
+                url: "cohealth_van_west_project",
+                post_id: "45366",
+                name: "CoHealth Van West Project",
+                description: "",
+                city: "Footscray",
+                postcode: "3011",
+                street: "2 Chambers Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.801858,  // These should be excluded by the view already.
+                lng: 144.981707, // These should be excluded by the view already.
+                url: "st_marks",
+                post_id: "38854,38855",
+                name: "St Marks",
+                description: "",
+                city: "Fitzroy",
+                postcode: "3065",
+                street: "250 George Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.808523,  // These should be excluded by the view already.
+                lng: 144.958485, // These should be excluded by the view already.
+                url: "franklin_st_hub",
+                post_id: "38861,38862",
+                name: "Franklin St Hub",
+                description: "",
+                city: "Melbourne",
+                postcode: "3004",
+                street: "136 Franklin Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.813079,  // These should be excluded by the view already.
+                lng: 144.996380, // These should be excluded by the view already.
+                url: "north_richmond_health",
+                post_id: "38867",
+                name: "North Richmond Health",
+                description: "",
+                city: "Richmond",
+                postcode: "3121",
+                street: "23 Lennox Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.835097,  // These should be excluded by the view already.
+                lng: 144.953981, // These should be excluded by the view already.
+                url: "st_peter_and_pauls_open_house",
+                post_id: "38868",
+                name: "St Peter and Pauls Open House",
+                description: "",
+                city: "South Melbourne",
+                postcode: "3205",
+                street: "377 Dorcas Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.840460,  // These should be excluded by the view already.
+                lng: 144.957613, // These should be excluded by the view already.
+                url: "sunday_suppers",
+                post_id: "38844",
+                name: "Sunday Suppers",
+                description: "",
+                city: "Albert Park",
+                postcode: "3206",
+                street: "99 Bridport Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.861363,  // These should be excluded by the view already.
+                lng: 144.973460, // These should be excluded by the view already.
+                url: "the_food_van",
+                post_id: "38872",
+                name: "The Food Van",
+                description: "Cleve Gardens, Fitzroy St",
+                city: "Saint Kilda West",
+                postcode: "3182",
+                street: "368 Beaconsfield Parade",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.862698,  // These should be excluded by the view already.
+                lng: 144.975568, // These should be excluded by the view already.
+                url: "the_food_van",
+                post_id: "38873",
+                name: "The Food Van",
+                description: "Cleve Gardens, Fitzroy St",
+                city: "Saint Kilda West",
+                postcode: "3182",
+                street: "368 Beaconsfield Parade",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.863951,  // These should be excluded by the view already.
+                lng: 144.975826, // These should be excluded by the view already.
+                url: "christ_church_mission",
+                post_id: "38870",
+                name: "Christ Church Mission",
+                description: "",
+                city: "St Kilda",
+                postcode: "3182",
+                street: "14 Acland Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.873492,  // These should be excluded by the view already.
+                lng: 145.097401, // These should be excluded by the view already.
+                url: "power_neighbourhood_house",
+                post_id: "38845",
+                name: "Power Neighbourhood House",
+                description: "",
+                city: "Ashwood",
+                postcode: "3147",
+                street: "54 Power Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.880842,  // These should be excluded by the view already.
+                lng: 145.295536, // These should be excluded by the view already.
+                url: "foothills_community_care",
+                post_id: "38853",
+                name: "Foothills Community Care",
+                description: "",
+                city: "Ferntree Gully",
+                postcode: "3156",
+                street: "156 Underwood Road",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.898802,  // These should be excluded by the view already.
+                lng: 144.660202, // These should be excluded by the view already.
+                url: "salvos_on_the_move",
+                post_id: "38779",
+                name: "Salvos on the Move",
+                description: "Near the bus stops",
+                city: "Werribee",
+                postcode: "3030",
+                street: "Manly Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.903686,  // These should be excluded by the view already.
+                lng: 145.332748, // These should be excluded by the view already.
+                url: "foothills_community_care_inc",
+                post_id: "38875",
+                name: "Foothills Community Care Inc",
+                description: "",
+                city: "Upwey",
+                postcode: "3158",
+                street: "21 Darling Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.975049,  // These should be excluded by the view already.
+                lng: 145.210811, // These should be excluded by the view already.
+                url: "cornerstone_james_st",
+                post_id: "43344,38849",
+                name: "Cornerstone James St",
+                description: "",
+                city: "Dandenong",
+                postcode: "3175",
+                street: "25 James Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.975063,  // These should be excluded by the view already.
+                lng: 145.210778, // These should be excluded by the view already.
+                url: "cornerstone_james_st",
+                post_id: "38850",
+                name: "Cornerstone James St",
+                description: "",
+                city: "Dandenong",
+                postcode: "3175",
+                street: "25 James Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -37.996744,  // These should be excluded by the view already.
+                lng: 145.242063, // These should be excluded by the view already.
+                url: "doveton_learning_centre",
+                post_id: "38851",
+                name: "Doveton Learning Centre",
+                description: "",
+                city: "Doveton",
+                postcode: "3177",
+                street: "34 Oak Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.024517,  // These should be excluded by the view already.
+                lng: 145.305847, // These should be excluded by the view already.
+                url: "transit_narre_warren",
+                post_id: "38864",
+                name: "Transit Narre Warren",
+                description: "",
+                city: "Narre Warren",
+                postcode: "3805",
+                street: "Webb Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.035348,  // These should be excluded by the view already.
+                lng: 145.268008, // These should be excluded by the view already.
+                url: "hampton_park_uniting_church",
+                post_id: "38860",
+                name: "Hampton Park Uniting Church",
+                description: "",
+                city: "Hampton Park",
+                postcode: "3976",
+                street: "1 Coral Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.051979,  // These should be excluded by the view already.
+                lng: 145.117216, // These should be excluded by the view already.
+                url: "chelsea_community_church",
+                post_id: "38848",
+                name: "Chelsea Community Church",
+                description: "",
+                city: "Chelsea",
+                postcode: "3196",
+                street: "5 Blantyre Avenue",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.105296,  // These should be excluded by the view already.
+                lng: 145.286768, // These should be excluded by the view already.
+                url: "gethsemane_charity_and_church",
+                post_id: "41005",
+                name: "Gethsemane Charity and Church",
+                description: "",
+                city: "Cranbourne",
+                postcode: "3977",
+                street: "8 Smethurst Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.118589,  // These should be excluded by the view already.
+                lng: 145.155640, // These should be excluded by the view already.
+                url: "peninsula_city_church_winter_shelter",
+                post_id: "46464",
+                name: "Peninsula City Church Winter Shelter",
+                description: "Located at Holy Family Catholic Church",
+                city: "Frankston North",
+                postcode: "3200",
+                street: "35 Moreton Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.141021,  // These should be excluded by the view already.
+                lng: 144.348808, // These should be excluded by the view already.
+                url: "one_hope",
+                post_id: "38777,38778",
+                name: "One Hope",
+                description: "",
+                city: "Geelong West",
+                postcode: "3218",
+                street: "61 Candover Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.141523,  // These should be excluded by the view already.
+                lng: 145.127993, // These should be excluded by the view already.
+                url: "community_support_frankston",
+                post_id: "38857,38858",
+                name: "Community Support Frankston",
+                description: "",
+                city: "Frankston",
+                postcode: "3199",
+                street: "35 Beach Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.149334,  // These should be excluded by the view already.
+                lng: 144.366808, // These should be excluded by the view already.
+                url: "meli_youth_services",
+                post_id: "47098",
+                name: "Meli Youth Services",
+                description: "",
+                city: "Geelong",
+                postcode: "3220",
+                street: "222 Malop Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.150105,  // These should be excluded by the view already.
+                lng: 144.358029, // These should be excluded by the view already.
+                url: "the_outpost",
+                post_id: "38774,38775,38776",
+                name: "The Outpost",
+                description: "",
+                city: "Geelong",
+                postcode: "3220",
+                street: "42 Little Ryrie Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.177896,  // These should be excluded by the view already.
+                lng: 144.394779, // These should be excluded by the view already.
+                url: "whittington_neighbourhood_house",
+                post_id: "38780",
+                name: "Whittington Neighbourhood House",
+                description: "",
+                city: "Newcomb",
+                postcode: "3219",
+                street: "20 Worden Court",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.260845,  // These should be excluded by the view already.
+                lng: 144.538634, // These should be excluded by the view already.
+                url: "bellarine_training_and_community_centre",
+                post_id: "45595",
+                name: "Bellarine Training and Community Centre",
+                description: "",
+                city: "Ocean Grove",
+                postcode: "3226",
+                street: "Shell Road Reserve, 1 John Dory Drive",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -38.594778,  // These should be excluded by the view already.
+                lng: 145.591472, // These should be excluded by the view already.
+                url: "salvation_army_wonthaggi",
+                post_id: "47455,47456",
+                name: "Salvation Army Wonthaggi",
+                description: "",
+                city: "Wonthaggi",
+                postcode: "3995",
+                street: "149 McKenzie Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -42.829105,  // These should be excluded by the view already.
+                lng: 147.291532, // These should be excluded by the view already.
+                url: "goodwood_community_centre",
+                post_id: "43333",
+                name: "Goodwood Community Centre",
+                description: "",
+                city: "Goodwood",
+                postcode: "7010",
+                street: "20 Acton Crescent",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -42.858193,  // These should be excluded by the view already.
+                lng: 147.307664, // These should be excluded by the view already.
+                url: "new_town_accommodation",
+                post_id: "38801,38802",
+                name: "New Town Accommodation",
+                description: "Flint House",
+                city: "New Town",
+                postcode: "7008",
+                street: "43 Pirie Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -42.872725,  // These should be excluded by the view already.
+                lng: 147.314291, // These should be excluded by the view already.
+                url: "north_hobart_uniting_church",
+                post_id: "38803",
+                name: "North Hobart Uniting Church",
+                description: "",
+                city: "North Hobart",
+                postcode: "7000",
+                street: "2 Swan Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -42.879173,  // These should be excluded by the view already.
+                lng: 147.321756, // These should be excluded by the view already.
+                url: "salv_army_north_hobart",
+                post_id: "38804",
+                name: "Salv Army North Hobart",
+                description: "",
+                city: "Hobart",
+                postcode: "7000",
+                street: "180 Elizabeth Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -42.880864,  // These should be excluded by the view already.
+                lng: 147.324283, // These should be excluded by the view already.
+                url: "nobucks_cafe_uniting_church",
+                post_id: "38799",
+                name: "Nobucks Cafe Uniting Church",
+                description: "",
+                city: "Hobart",
+                postcode: "7000",
+                street: "56 Melville Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -42.885274,  // These should be excluded by the view already.
+                lng: 147.321760, // These should be excluded by the view already.
+                url: "hobart_mission_day_space",
+                post_id: "38797,38798",
+                name: "Hobart Mission Day Space",
+                description: "",
+                city: "Hobart",
+                postcode: "7000",
+                street: "50 Barrack Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+            ,         {
+                lat: -42.888185,  // These should be excluded by the view already.
+                lng: 147.326893, // These should be excluded by the view already.
+                url: "repatriation_general_hospital",
+                post_id: "38800",
+                name: "Repatriation General Hospital",
+                description: "",
+                city: "Hobart",
+                postcode: "7000",
+                street: "90 Davey Street",
+                image: "https://orangesky.org.au/wp-content/themes/orangesky20250430/assets/img/machine.svg",
+                notifications: "",
+            }
+                        ]

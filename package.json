@@ -1,0 +1,14 @@
+{
+  "name": "orange-sky-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Orange Sky location and shift scraper using text-based URL approach",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  }
+}

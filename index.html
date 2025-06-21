@@ -602,56 +602,177 @@
                 display: none; /* Hide text on very small screens */
             }
 
-            /* Card-style layout alternative for very small screens */
-            .mobile-card-view .services-table,
-            .mobile-card-view .services-table thead,
-            .mobile-card-view .services-table tbody,
-            .mobile-card-view .services-table th,
-            .mobile-card-view .services-table td,
-            .mobile-card-view .services-table tr {
-                display: block;
+            /* Modern Card-style layout - Thumbnail browsing experience */
+            .mobile-card-view .services-table {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 20px;
+                padding: 20px 0;
             }
 
-            .mobile-card-view .services-table thead tr {
-                position: absolute;
-                top: -9999px;
-                left: -9999px;
+            .mobile-card-view .services-table thead {
+                display: none;
+            }
+
+            .mobile-card-view .services-table tbody {
+                display: contents;
             }
 
             .mobile-card-view .services-table tr {
+                display: flex;
+                flex-direction: column;
                 background: white;
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                margin-bottom: 12px;
-                padding: 15px;
-                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                border: 1px solid #e0e0e0;
+                border-radius: 16px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                transition: all 0.3s ease;
+                cursor: pointer;
+                position: relative;
+            }
+
+            .mobile-card-view .services-table tr:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+                border-color: var(--primary-color);
             }
 
             .mobile-card-view .services-table td {
                 border: none;
-                padding: 8px 0;
+                padding: 0;
+                display: none; /* Hide all by default */
+            }
+
+            /* Show only essential information in card format */
+             .mobile-card-view .services-table td[data-label="Location"] {
+                 display: block;
+                 order: 1;
+             }
+
+             .mobile-card-view .services-table td[data-label="Day"] {
+                 display: block;
+                 order: 2;
+                 padding: 0;
+             }
+
+             .mobile-card-view .services-table td[data-label="Start"],
+             .mobile-card-view .services-table td[data-label="End"],
+             .mobile-card-view .services-table td[data-label="State"],
+             .mobile-card-view .services-table td[data-label="Address"] {
+                 display: none !important;
+             }
+
+             .mobile-card-view .services-table td[data-label="Actions"] {
+                 display: block;
+                 padding: 15px 20px 20px 20px;
+                 order: 3;
+                 margin-top: auto;
+             }
+
+            /* Card header with location */
+            .mobile-card-view .services-table td[data-label="Location"] {
+                background: linear-gradient(135deg, var(--primary-color), #1976d2);
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                text-align: center;
+                padding: 24px 20px;
+                margin: 0;
                 position: relative;
-                padding-left: 35%;
-                text-align: left;
             }
 
-            .mobile-card-view .services-table td:before {
-                content: attr(data-label);
-                position: absolute;
-                left: 0;
-                width: 30%;
-                padding-right: 10px;
-                white-space: nowrap;
-                font-weight: 600;
-                color: #666;
+            .mobile-card-view .services-table td[data-label="Location"] strong {
+                display: block;
+                font-size: 20px;
+                margin-bottom: 8px;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            }
+
+            .mobile-card-view .services-table td[data-label="Location"] .distance-info {
+                background: rgba(255,255,255,0.2);
+                padding: 4px 12px;
+                border-radius: 20px;
                 font-size: 12px;
+                font-weight: 500;
+                display: inline-block;
+                margin-top: 8px;
             }
 
+            /* Time and day info section */
+            .mobile-card-view .time-day-section {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 16px 20px;
+                background: #f8f9fa;
+                border-bottom: 1px solid #e9ecef;
+            }
+
+            .mobile-card-view .services-table td[data-label="Day"] {
+                background: none;
+                padding: 0;
+                flex: 1;
+            }
+
+            .mobile-card-view .services-table td[data-label="Start"],
+            .mobile-card-view .services-table td[data-label="End"] {
+                background: none;
+                padding: 0;
+                flex: 1;
+                text-align: center;
+            }
+
+            .mobile-card-view .day-badge {
+                background: var(--primary-color);
+                color: white;
+                padding: 8px 16px;
+                border-radius: 20px;
+                font-weight: 600;
+                font-size: 14px;
+                display: inline-block;
+            }
+
+            .mobile-card-view .time-badge {
+                background: #e3f2fd;
+                color: #1976d2;
+                padding: 6px 12px;
+                border-radius: 12px;
+                font-weight: 600;
+                font-size: 13px;
+                display: inline-block;
+            }
+
+            /* Action buttons */
             .mobile-card-view .action-buttons {
-                flex-direction: row;
-                justify-content: flex-end;
-                gap: 8px;
-                margin-top: 8px;
+                display: flex;
+                gap: 12px;
+                justify-content: center;
+            }
+
+            .mobile-card-view .btn-maps {
+                flex: 1;
+                padding: 12px 16px;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 8px;
+                transition: all 0.2s ease;
+            }
+
+            .mobile-card-view .btn-maps:hover {
+                transform: translateY(-1px);
+            }
+
+            /* Mobile responsive adjustments */
+            @media (max-width: 480px) {
+                .mobile-card-view .services-table {
+                    grid-template-columns: 1fr;
+                    gap: 16px;
+                    padding: 16px 0;
+                }
+                
+                .mobile-card-view .services-table tr {
+                    margin: 0 8px;
+                }
             }
 
             #mapView {
@@ -1089,8 +1210,8 @@
             <div id="table-view" role="tabpanel" aria-labelledby="tableBtn">
                 <div class="table-container">
                     <button class="mobile-view-toggle" onclick="console.log('Button clicked!'); toggleMobileView(); return false;" aria-label="Toggle between table and card view">
-                        <i class="fas fa-th-list" aria-hidden="true"></i> Switch to Card View
-                    </button>
+                    <i class="fas fa-th-large" aria-hidden="true"></i> Switch to Card View
+                </button>
                     <table id="shiftsTable" role="table" aria-label="Orange Sky service shifts">
                         <thead>
                             <tr role="row">
@@ -1410,15 +1531,22 @@
                     <tr role="row" tabindex="0" aria-rowindex="${index + 2}">
                         <td role="gridcell" data-label="Location">
                             <strong>${shift.service_name || shift.location || 'N/A'}</strong>
-                            ${distanceInfo ? `<br><small class="distance-info">${distanceInfo}</small>` : ''}
+                            ${distanceInfo ? `<span class="distance-info">${distanceInfo}</span>` : ''}
                         </td>
                         <td role="gridcell" data-label="Day">
-                            <span class="day-badge">${shift.day || 'N/A'}</span>
+                            <div class="time-day-section">
+                                <span class="day-badge">${shift.day || 'N/A'}</span>
+                                <div class="time-info">
+                                    <span class="time-badge">${shift.start_time || 'N/A'}</span>
+                                    <span style="margin: 0 8px; color: #666;">→</span>
+                                    <span class="time-badge">${shift.end_time || 'N/A'}</span>
+                                </div>
+                            </div>
                         </td>
-                        <td role="gridcell" data-label="Start">
+                        <td role="gridcell" data-label="Start" style="display: none;">
                             <span class="time-badge">${shift.start_time || 'N/A'}</span>
                         </td>
-                        <td role="gridcell" data-label="End">
+                        <td role="gridcell" data-label="End" style="display: none;">
                             <span class="time-badge">${shift.end_time || 'N/A'}</span>
                         </td>
                         <td role="gridcell" data-label="State">${shift.state || 'N/A'}</td>
@@ -1431,14 +1559,14 @@
                                         onclick="openGoogleMaps('${googleMapsUrl}')"
                                         aria-label="Get directions to ${shift.service_name || shift.location} via Google Maps">
                                     <i class="fas fa-map" aria-hidden="true"></i>
-                                    <span class="btn-text">Map</span>
+                                    <span class="btn-text">Google Maps</span>
                                 </button>
                                 <button class="btn-maps apple-maps" 
                                         onclick="openAppleMaps('${appleMapsUrl}')"
                                         aria-label="Get directions to ${shift.service_name || shift.location} via Apple Maps"
                                         style="display: none;">
                                     <i class="fas fa-map" aria-hidden="true"></i>
-                                    <span class="btn-text">Apple</span>
+                                    <span class="btn-text">Apple Maps</span>
                                 </button>
                             </div>
                         </td>
@@ -1672,12 +1800,12 @@
                  tableContainer.classList.add('mobile-card-view');
                  toggleButton.innerHTML = '<i class="fas fa-table" aria-hidden="true"></i> Switch to Table View';
                  console.log('Added mobile-card-view class');
-                 announceToScreenReader('Switched to card view for better mobile experience');
+                 announceToScreenReader('Switched to thumbnail card view for easier browsing');
              } else {
                  tableContainer.classList.remove('mobile-card-view');
-                 toggleButton.innerHTML = '<i class="fas fa-th-list" aria-hidden="true"></i> Switch to Card View';
+                 toggleButton.innerHTML = '<i class="fas fa-th-large" aria-hidden="true"></i> Switch to Card View';
                  console.log('Removed mobile-card-view class');
-                 announceToScreenReader('Switched to table view');
+                 announceToScreenReader('Switched to detailed table view');
              }
              
              console.log('Current classes:', tableContainer.className);

@@ -949,7 +949,7 @@
 
             <div id="table-view" role="tabpanel" aria-labelledby="tableBtn">
                 <div class="table-container">
-                    <button class="mobile-view-toggle" onclick="toggleMobileView()" aria-label="Toggle between table and card view">
+                    <button class="mobile-view-toggle" onclick="console.log('Button clicked!'); toggleMobileView(); return false;" aria-label="Toggle between table and card view">
                         <i class="fas fa-th-list" aria-hidden="true"></i> Switch to Card View
                     </button>
                     <table id="shiftsTable" role="table" aria-label="Orange Sky service shifts">
@@ -1537,6 +1537,9 @@
              console.log('Current classes:', tableContainer.className);
          }
          
+         // Make function globally accessible
+         window.toggleMobileView = toggleMobileView;
+         
          // Auto-detect very small screens and suggest card view
          function checkMobileViewSuggestion() {
              if (window.innerWidth <= 480 && !localStorage.getItem('mobile-view-dismissed')) {
@@ -1697,7 +1700,7 @@
         // Service Worker registration for PWA
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
+                navigator.serviceWorker.register('./sw.js')
                     .then(registration => {
                         console.log('SW registered: ', registration);
                     })
